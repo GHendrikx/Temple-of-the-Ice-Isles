@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\TheTemple.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{BC9293B1-267C-4604-A69A-7A2EF05C470C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheTemple.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\TheTempleEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{4F1F8559-CB22-4962-BFE3-421F8E10775E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\TheTemple">
+      <UniqueIdentifier>{3BB2D4E8-BEAD-4864-9D7E-51760C6DCB91}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\TheTemple\TheTemple.Build.cs">
+      <Filter>Source\TheTemple</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\TheTemple\TheTemple.cpp">
+      <Filter>Source\TheTemple</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheTemple\TheTemple.h">
+      <Filter>Source\TheTemple</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\TheTemple\TheTempleGameModeBase.cpp">
+      <Filter>Source\TheTemple</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheTemple\TheTempleGameModeBase.h">
+      <Filter>Source\TheTemple</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
