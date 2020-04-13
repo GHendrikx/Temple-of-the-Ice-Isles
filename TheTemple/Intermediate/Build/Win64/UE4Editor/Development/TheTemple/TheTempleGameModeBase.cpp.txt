@@ -1,7 +1,0 @@
-C:\Users\Geoffrey\Temple-of-the-Ice-Isles\TheTemple\Intermediate\Build\Win64\UE4Editor\Development\TheTemple\Definitions.TheTemple.h
-c:\users\geoffrey\temple-of-the-ice-isles\thetemple\source\thetemple\TheTempleGameModeBase.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\Geoffrey\Temple-of-the-Ice-Isles\TheTemple\Intermediate\Build\Win64\UE4Editor\Inc\TheTemple\TheTempleGameModeBase.generated.h
