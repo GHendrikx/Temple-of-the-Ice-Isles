@@ -31,8 +31,8 @@
 /wd4838
 /we4668
 /I .
-/I C:\Users\Geoffrey\Temple-of-the-Ice-Isles\TheTemple\Intermediate\Build\Win64\UE4Editor\Inc\TheTemple
-/I C:\Users\Geoffrey\Temple-of-the-Ice-Isles\TheTemple\Source
+/I "C:\Users\manou\OneDrive\Documenten\1. HKU\Jaar 2\Blok 4\Project Vrij ll\SourceTree Temple\TheTemple\Intermediate\Build\Win64\UE4Editor\Inc\TheTemple"
+/I "C:\Users\manou\OneDrive\Documenten\1. HKU\Jaar 2\Blok 4\Project Vrij ll\SourceTree Temple\TheTemple\Source"
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -253,18 +253,18 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\RenderDebug\public
 /I ThirdParty\PhysX3\APEX_1.4\shared\general\PairFilter\include
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
-/I "A:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.2\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.14393.0\winrt"
-/FI"C:\Users\Geoffrey\Temple-of-the-Ice-Isles\TheTemple\Intermediate\Build\Win64\TheTempleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"C:\Users\Geoffrey\Temple-of-the-Ice-Isles\TheTemple\Intermediate\Build\Win64\TheTempleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"C:\Users\Geoffrey\Temple-of-the-Ice-Isles\TheTemple\Intermediate\Build\Win64\TheTempleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"C:\Users\Geoffrey\Temple-of-the-Ice-Isles\TheTemple\Source\TheTemple\TheTempleGameModeBase.cpp"
-/FI"C:\Users\Geoffrey\Temple-of-the-Ice-Isles\TheTemple\Intermediate\Build\Win64\UE4Editor\Development\TheTemple\Definitions.TheTemple.h"
-/Fo"C:\Users\Geoffrey\Temple-of-the-Ice-Isles\TheTemple\Intermediate\Build\Win64\UE4Editor\Development\TheTemple\TheTempleGameModeBase.cpp.obj"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.7.2\include\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
+/FI"C:\Users\manou\OneDrive\Documenten\1. HKU\Jaar 2\Blok 4\Project Vrij ll\SourceTree Temple\TheTemple\Intermediate\Build\Win64\TheTempleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"C:\Users\manou\OneDrive\Documenten\1. HKU\Jaar 2\Blok 4\Project Vrij ll\SourceTree Temple\TheTemple\Intermediate\Build\Win64\TheTempleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"C:\Users\manou\OneDrive\Documenten\1. HKU\Jaar 2\Blok 4\Project Vrij ll\SourceTree Temple\TheTemple\Intermediate\Build\Win64\TheTempleEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"C:\Users\manou\OneDrive\Documenten\1. HKU\Jaar 2\Blok 4\Project Vrij ll\SourceTree Temple\TheTemple\Source\TheTemple\TheTempleGameModeBase.cpp"
+/FI"C:\Users\manou\OneDrive\Documenten\1. HKU\Jaar 2\Blok 4\Project Vrij ll\SourceTree Temple\TheTemple\Intermediate\Build\Win64\UE4Editor\Development\TheTemple\Definitions.TheTemple.h"
+/Fo"C:\Users\manou\OneDrive\Documenten\1. HKU\Jaar 2\Blok 4\Project Vrij ll\SourceTree Temple\TheTemple\Intermediate\Build\Win64\UE4Editor\Development\TheTemple\TheTempleGameModeBase.cpp.obj"
 /TP
 /GR-
 /W4

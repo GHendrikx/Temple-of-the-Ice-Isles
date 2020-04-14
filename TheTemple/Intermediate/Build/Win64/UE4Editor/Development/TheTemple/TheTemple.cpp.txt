@@ -1,2 +1,2 @@
-C:\Users\Geoffrey\Temple-of-the-Ice-Isles\TheTemple\Intermediate\Build\Win64\UE4Editor\Development\TheTemple\Definitions.TheTemple.h
-c:\users\geoffrey\temple-of-the-ice-isles\thetemple\source\thetemple\TheTemple.h
+C:\Users\manou\OneDrive\Documenten\1. HKU\Jaar 2\Blok 4\Project Vrij ll\SourceTree Temple\TheTemple\Intermediate\Build\Win64\UE4Editor\Development\TheTemple\Definitions.TheTemple.h
+c:\users\manou\onedrive\documenten\1. hku\jaar 2\blok 4\project vrij ll\sourcetree temple\thetemple\source\thetemple\TheTemple.h

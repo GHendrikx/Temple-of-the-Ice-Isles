@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TheTemple.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{BC9293B1-267C-4604-A69A-7A2EF05C470C}</UniqueIdentifier>
+      <UniqueIdentifier>{3574DD1D-31DE-4E27-AF3B-5E6A8A37C1FE}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TheTemple.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{4F1F8559-CB22-4962-BFE3-421F8E10775E}</UniqueIdentifier>
+      <UniqueIdentifier>{1995EA86-8196-4B30-91AB-2146FAF49D63}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\TheTemple">
-      <UniqueIdentifier>{3BB2D4E8-BEAD-4864-9D7E-51760C6DCB91}</UniqueIdentifier>
+      <UniqueIdentifier>{07EB9254-80E9-4F00-BB4D-D6FEC5B231F9}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TheTemple\TheTemple.Build.cs">
       <Filter>Source\TheTemple</Filter>
