@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "TheTemple",
-			"Path": "C:\\Users\\manou\\OneDrive\\Documenten\\1. HKU\\Jaar 2\\Blok 4\\Project Vrij ll\\SourceTree Temple\\TheTemple\\Source\\TheTemple.Target.cs",
+			"Path": "C:\\Users\\Geoffrey\\Temple-of-the-Ice-Isles\\TheTemple\\Source\\TheTemple.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "TheTempleEditor",
-			"Path": "C:\\Users\\manou\\OneDrive\\Documenten\\1. HKU\\Jaar 2\\Blok 4\\Project Vrij ll\\SourceTree Temple\\TheTemple\\Source\\TheTempleEditor.Target.cs",
+			"Path": "C:\\Users\\Geoffrey\\Temple-of-the-Ice-Isles\\TheTemple\\Source\\TheTempleEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]
