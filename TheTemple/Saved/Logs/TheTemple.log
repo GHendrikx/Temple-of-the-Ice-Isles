@@ -1611,3 +1611,128 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.04.16-16.17.18:092][587]SourceControl: [master 1bf299a] blockout level completed
 [2020.04.16-16.17.18:092][587]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
 [2020.04.16-16.17.18:110][587]SourceControl: Commited [master 1bf299a] blockout level completed.
+[2020.04.16-16.19.21:029][ 88]MapCheck: New page: Map Check
+[2020.04.16-16.19.21:069][ 88]Cmd: MAP REBUILD ALLVISIBLE
+[2020.04.16-16.19.21:069][ 88]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.04.16-16.19.21:311][ 88]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=false
+[2020.04.16-16.19.21:324][ 88]LightingResults: New page: Lighting Build - 16 apr. 2020 20:19:21
+[2020.04.16-16.19.21:331][ 88]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.04.16-16.19.21:334][ 88]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.04.16-16.19.21:334][ 88]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.04.16-16.19.21:335][ 88]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.04.16-16.19.21:335][ 88]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18368
+[2020.04.16-16.19.25:861][ 88]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.04.16-16.19.25:861][ 88]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.04.16-16.19.25:862][ 88]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.04.16-16.19.25:862][ 88]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.04.16-16.19.25:862][ 88]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.04.16-16.19.25:862][ 88]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.04.16-16.19.26:145][ 88]LogEditorBuildUtils: Build time 0:05
+[2020.04.16-16.19.26:476][ 91]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2020.04.16-16.19.34:359][529]Job is a success!
+[2020.04.16-16.19.34:704][530]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.091s
+[2020.04.16-16.19.34:704][530]LogVolumetricLightmapImport:      Indirection Texture 16x32x16 = 0.0Mb
+[2020.04.16-16.19.34:704][530]LogVolumetricLightmapImport:      BrickData (all levels) 3.8Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2020.04.16-16.19.34:704][530]LogVolumetricLightmapImport:      Bricks at depth
+[2020.04.16-16.19.34:704][530]LogVolumetricLightmapImport:          0: 0.4% covering 100.0% of volume
+[2020.04.16-16.19.34:704][530]LogVolumetricLightmapImport:          1: 6.5% covering 26.6% of volume
+[2020.04.16-16.19.34:704][530]LogVolumetricLightmapImport:          2: 93.1% covering 5.9% of volume
+[2020.04.16-16.19.34:704][530]LogVolumetricLightmapImport:      Bricks in each level
+[2020.04.16-16.19.34:704][530]LogVolumetricLightmapImport:          Minimal_Default 			 523 bricks 	 100.0% (Persistent Level)
+[2020.04.16-16.19.35:360][530]LogTexture: Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2020.04.16-16.19.35:360][530]LogTexture: Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2020.04.16-16.19.35:360][530]LogTexture: Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2020.04.16-16.19.35:360][530]LogTexture: Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2020.04.16-16.19.35:360][530]LogTexture: Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2020.04.16-16.19.35:360][530]LogTexture: Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2020.04.16-16.19.35:360][530]LogTexture: Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2020.04.16-16.19.35:360][530]LogTexture: Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2020.04.16-16.19.35:360][530]LogTexture: Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2020.04.16-16.19.35:557][530]LogTexture: Display: Building textures: ShadowMapTexture2D_23 (G8, 32X32)
+[2020.04.16-16.19.35:557][530]LogTexture: Display: Building textures: ShadowMapTexture2D_21 (BGRA8, 128X128)
+[2020.04.16-16.19.35:557][530]LogTexture: Display: Building textures: ShadowMapTexture2D_22 (BGRA8, 1024X512)
+[2020.04.16-16.19.35:558][530]LogStaticLightingSystem: Minimal_Default_BuiltData storing lightmap data for 141 meshes in 4 LightmapResourceClusters (35.3 Meshes per cluster).
+[2020.04.16-16.19.35:568][530]Lightmass on YOGIE: 8.47 sec total, 146 ms importing, 70 ms setup, 1.46 sec photons, 6.77 sec processing, 0 ms extra exporting [232/232 mappings]. Threads: 47.3 sec total, 18.5 sec processing.
+[2020.04.16-16.19.35:596][530]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2020.04.16-16.19.35:620][530]LogStaticLightingSystem: Illumination: 14.2 sec (600 ms encoding lightmaps, 149 ms encoding shadowmaps)
+[2020.04.16-16.19.35:620][530]LogStaticLightingSystem: Lightmap texture memory:  3.2 MB (2.9 MB streaming, 0.3 MB non-streaming), 6 textures
+[2020.04.16-16.19.35:620][530]LogStaticLightingSystem: Shadowmap texture memory: 2.9 MB (2.8 MB streaming, 0.1 MB non-streaming), 3 textures
+[2020.04.16-16.19.35:868][530]DumpUnbuiltLightIteractions
+[2020.04.16-16.19.35:868][530]Lights with unbuilt interactions: 0
+[2020.04.16-16.19.35:868][530]
+[2020.04.16-16.19.35:868][530]Primitives with unbuilt interactions: 0
+[2020.04.16-16.19.36:412][531]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.04.16-16.19.36:412][531]MapCheck: New page: Minimal_Default - 16 apr. 2020 20:19:36
+[2020.04.16-16.19.36:414][531]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1,551ms to complete.
+[2020.04.16-16.27.03:172][269]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2020.04.16-16.27.03:344][269]LogSavePackage: Moving '../../../../../../OneDrive/Documenten/1. HKU/Jaar 2/Blok 4/Project Vrij ll/SourceTree Temple/TheTemple/Saved/Minimal_Default_Auto12A6CC0B0424AB2A8A17116A5F710A6CD.tmp' to '../../../../../../OneDrive/Documenten/1. HKU/Jaar 2/Blok 4/Project Vrij ll/SourceTree Temple/TheTemple/Saved/Autosaves/Game/StarterContent/Maps/Minimal_Default_Auto1.umap'
+[2020.04.16-16.27.03:346][269]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.201
+[2020.04.16-16.27.03:346][269]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.201
+[2020.04.16-16.28.53:554][749]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2020.04.16-16.29.04:210][749]LogSlate: Window 'Save Content' being destroyed
+[2020.04.16-16.29.15:429][217]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PuzzlePiece3)
+[2020.04.16-16.29.41:379][755]MapCheck: New page: Map Check
+[2020.04.16-16.29.41:415][755]Cmd: MAP REBUILD ALLVISIBLE
+[2020.04.16-16.29.41:415][755]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2020.04.16-16.29.41:681][755]LogWorld: UWorld::CleanupWorld for Minimal_Default, bSessionEnded=true, bCleanupResources=false
+[2020.04.16-16.29.41:694][755]LightingResults: New page: Lighting Build - 16 apr. 2020 20:29:41
+[2020.04.16-16.29.41:703][755]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2020.04.16-16.29.41:705][755]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2020.04.16-16.29.41:705][755]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2020.04.16-16.29.41:706][755]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2020.04.16-16.29.41:706][755]LogSwarmInterface: [TryOpenConnection] Local Process ID is 18368
+[2020.04.16-16.29.46:244][755]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2020.04.16-16.29.46:245][755]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2020.04.16-16.29.46:245][755]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2020.04.16-16.29.46:245][755]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2020.04.16-16.29.46:245][755]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2020.04.16-16.29.46:246][755]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2020.04.16-16.29.46:403][755]LogEditorBuildUtils: Build time 0:05
+[2020.04.16-16.29.46:905][759]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2020.04.16-16.29.56:121][244]Job is a success!
+[2020.04.16-16.29.56:430][245]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.095s
+[2020.04.16-16.29.56:430][245]LogVolumetricLightmapImport:      Indirection Texture 16x32x16 = 0.0Mb
+[2020.04.16-16.29.56:430][245]LogVolumetricLightmapImport:      BrickData (all levels) 3.8Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2020.04.16-16.29.56:430][245]LogVolumetricLightmapImport:      Bricks at depth
+[2020.04.16-16.29.56:430][245]LogVolumetricLightmapImport:          0: 0.4% covering 100.0% of volume
+[2020.04.16-16.29.56:430][245]LogVolumetricLightmapImport:          1: 6.5% covering 26.6% of volume
+[2020.04.16-16.29.56:430][245]LogVolumetricLightmapImport:          2: 93.1% covering 6.0% of volume
+[2020.04.16-16.29.56:430][245]LogVolumetricLightmapImport:      Bricks in each level
+[2020.04.16-16.29.56:430][245]LogVolumetricLightmapImport:          Minimal_Default 			 524 bricks 	 100.0% (Persistent Level)
+[2020.04.16-16.29.57:070][245]LogTexture: Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2020.04.16-16.29.57:070][245]LogTexture: Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2020.04.16-16.29.57:070][245]LogTexture: Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2020.04.16-16.29.57:070][245]LogTexture: Display: Building textures: SkyOcclusion1_2 (AutoDXT, 256X128)
+[2020.04.16-16.29.57:070][245]LogTexture: Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2020.04.16-16.29.57:070][245]LogTexture: Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2020.04.16-16.29.57:070][245]LogTexture: Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2020.04.16-16.29.57:070][245]LogTexture: Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2020.04.16-16.29.57:070][245]LogTexture: Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2020.04.16-16.29.57:252][245]LogTexture: Display: Building textures: ShadowMapTexture2D_26 (G8, 32X32)
+[2020.04.16-16.29.57:252][245]LogTexture: Display: Building textures: ShadowMapTexture2D_24 (BGRA8, 128X128)
+[2020.04.16-16.29.57:252][245]LogTexture: Display: Building textures: ShadowMapTexture2D_25 (BGRA8, 1024X512)
+[2020.04.16-16.29.57:252][245]LogStaticLightingSystem: Minimal_Default_BuiltData storing lightmap data for 141 meshes in 4 LightmapResourceClusters (35.3 Meshes per cluster).
+[2020.04.16-16.29.57:256][245]Lightmass on YOGIE: 9.74 sec total, 146 ms importing, 71 ms setup, 1.41 sec photons, 8.09 sec processing, 0 ms extra exporting [232/232 mappings]. Threads: 56.6 sec total, 22.3 sec processing.
+[2020.04.16-16.29.57:293][245]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2020.04.16-16.29.57:314][245]LogStaticLightingSystem: Illumination: 15.5 sec (567 ms encoding lightmaps, 140 ms encoding shadowmaps)
+[2020.04.16-16.29.57:314][245]LogStaticLightingSystem: Lightmap texture memory:  3.2 MB (2.9 MB streaming, 0.3 MB non-streaming), 6 textures
+[2020.04.16-16.29.57:314][245]LogStaticLightingSystem: Shadowmap texture memory: 2.9 MB (2.8 MB streaming, 0.1 MB non-streaming), 3 textures
+[2020.04.16-16.29.58:257][245]DumpUnbuiltLightIteractions
+[2020.04.16-16.29.58:257][245]Lights with unbuilt interactions: 0
+[2020.04.16-16.29.58:257][245]
+[2020.04.16-16.29.58:257][245]Primitives with unbuilt interactions: 0
+[2020.04.16-16.29.58:711][246]Cmd: MAP CHECK NOTIFYRESULTS
+[2020.04.16-16.29.58:711][246]MapCheck: New page: Minimal_Default - 16 apr. 2020 20:29:58
+[2020.04.16-16.29.58:711][246]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,801ms to complete.
+[2020.04.16-16.30.08:520][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2020.04.16-16.30.08:679][816]LogSavePackage: Moving '../../../../../../OneDrive/Documenten/1. HKU/Jaar 2/Blok 4/Project Vrij ll/SourceTree Temple/TheTemple/Saved/Minimal_DefaultAC8014FD4F51F37E00F833A7F7D68ABB.tmp' to '../../../../../../OneDrive/Documenten/1. HKU/Jaar 2/Blok 4/Project Vrij ll/SourceTree Temple/TheTemple/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.04.16-16.30.08:954][816]LogSavePackage: Moving '../../../../../../OneDrive/Documenten/1. HKU/Jaar 2/Blok 4/Project Vrij ll/SourceTree Temple/TheTemple/Saved/Minimal_Default_BuiltData4DC13503407171DCA3839CBF20A10C7D.tmp' to '../../../../../../OneDrive/Documenten/1. HKU/Jaar 2/Blok 4/Project Vrij ll/SourceTree Temple/TheTemple/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset'
+[2020.04.16-16.30.08:973][816]AssetCheck: New page: Asset Save: multiple assets
+[2020.04.16-16.30.08:973][816]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2020.04.16-16.30.08:973][816]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/StarterContent/Maps/Minimal_Default_BuiltData.Minimal_Default_BuiltData
+[2020.04.16-16.30.11:200][922]SourceControl: fatal: C:/Users/manou/Downloads/Games/UE_4.24/Engine/Content: 'C:/Users/manou/Downloads/Games/UE_4.24/Engine/Content' is outside repository
+[2020.04.16-16.30.20:602][922]LogSlate: Window 'Submit Files' being destroyed
+[2020.04.16-16.30.20:976][922]LogSourceControl: commit successful: [master f537c2b] kleine fixes in blockout
+[2020.04.16-16.30.21:046][922]SourceControl: [master f537c2b] kleine fixes in blockout
+[2020.04.16-16.30.21:046][922]SourceControl:  1 file changed, 0 insertions(+), 0 deletions(-)
+[2020.04.16-16.30.21:066][922]SourceControl: Commited [master f537c2b] kleine fixes in blockout.
