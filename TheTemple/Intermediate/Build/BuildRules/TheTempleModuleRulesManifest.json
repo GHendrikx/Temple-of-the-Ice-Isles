@@ -1,8 +1,10 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\Geoffrey\\Temple-of-the-Ice-Isles\\TheTemple\\Source\\TheTemple\\TheTemple.Build.cs",
-		"C:\\Users\\Geoffrey\\Temple-of-the-Ice-Isles\\TheTemple\\Source\\TheTemple.Target.cs",
-		"C:\\Users\\Geoffrey\\Temple-of-the-Ice-Isles\\TheTemple\\Source\\TheTempleEditor.Target.cs"
+		"C:\\Users\\Max Willekes\\Desktop\\School\\HKU\\Jaar 2\\Blok 4\\Game\\Temple-of-the-Ice-Isles\\TheTemple\\Source\\TheTemple\\TheTemple.Build.cs",
+		"C:\\Users\\Max Willekes\\Desktop\\School\\HKU\\Jaar 2\\Blok 4\\Game\\Temple-of-the-Ice-Isles\\TheTemple\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
+		"C:\\Users\\Max Willekes\\Desktop\\School\\HKU\\Jaar 2\\Blok 4\\Game\\Temple-of-the-Ice-Isles\\TheTemple\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs",
+		"C:\\Users\\Max Willekes\\Desktop\\School\\HKU\\Jaar 2\\Blok 4\\Game\\Temple-of-the-Ice-Isles\\TheTemple\\Source\\TheTemple.Target.cs",
+		"C:\\Users\\Max Willekes\\Desktop\\School\\HKU\\Jaar 2\\Blok 4\\Game\\Temple-of-the-Ice-Isles\\TheTemple\\Source\\TheTempleEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }
