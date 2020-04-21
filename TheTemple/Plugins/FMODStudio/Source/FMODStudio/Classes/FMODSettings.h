@@ -233,6 +233,12 @@ public:
     UPROPERTY(config, EditAnywhere, Category = Advanced, meta = (EditCondition = "bEnableEditorLiveUpdate"))
     int32 EditorLiveUpdatePort;
 
+    /*
+    * Enable memory tracking.
+    */
+    UPROPERTY(config, EditAnywhere, Category = Advanced)
+    bool bEnableMemoryTracking;
+
     /**
 	 * Extra plugin files to load.  
 	 * The plugin files should sit alongside the FMOD dynamic libraries in the ThirdParty directory.
@@ -277,6 +283,9 @@ public:
     UPROPERTY(config, EditAnywhere, Category = Advanced)
     FString WavWriterPath;
 
+    /*
+    * Specify the logging level to use in a debug/development build.
+    */
     UPROPERTY(config, EditAnywhere, Category = Advanced)
     TEnumAsByte<EFMODLogging> LoggingLevel;
 
