@@ -801,3 +801,76 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.05.11-11.12.27:263][335]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Minimal_DefaultCD09D9B54D4BCD64219C87BECC9A2EAB.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Content/StarterContent/Maps/Minimal_Default.umap'
 [2020.05.11-11.12.27:404][335]AssetCheck: New page: Asset Save: Minimal_Default
 [2020.05.11-11.12.27:405][335]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2020.05.11-11.22.26:062][524]LogUObjectHash: Compacting FUObjectHashTables data took   8.70ms
+[2020.05.11-11.22.26:068][524]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.058
+[2020.05.11-11.22.26:070][524]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/Tablet_initialShadingGroup_color_Mat] ([1] browsable assets)...
+[2020.05.11-11.22.26:177][524]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Textures/Tablet_initialShadingGroup_color_Mat.Tablet_initialShadingGroup_color_Mat]
+[2020.05.11-11.22.26:177][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/Tablet_initialShadingGroup_color_Mat]
+[2020.05.11-11.22.26:256][524]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Tablet_initialShadingGroup_color4C67D7A54A161EAC8559B6B2AC8650F4.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Autosaves/Game/StarterContent/Textures/Tablet_initialShadingGroup_color_Mat_Auto1.uasset'
+[2020.05.11-11.22.26:257][524]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/Tablet_pCylinder5] ([1] browsable assets)...
+[2020.05.11-11.22.26:282][524]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Props/Tablet_pCylinder5.Tablet_pCylinder5]
+[2020.05.11-11.22.26:282][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/Tablet_pCylinder5]
+[2020.05.11-11.22.26:335][524]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Tablet_pCylinder5_Auto1B8EBBD1945A70C7290AEE9AC5ECBF09D.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Autosaves/Game/StarterContent/Props/Tablet_pCylinder5_Auto1.uasset'
+[2020.05.11-11.22.26:336][524]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/initialShadingGroup] ([1] browsable assets)...
+[2020.05.11-11.22.26:360][524]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/initialShadingGroup.initialShadingGroup]
+[2020.05.11-11.22.26:360][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/initialShadingGroup]
+[2020.05.11-11.22.26:374][524]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/initialShadingGroup_Auto16519CDAD4019969E64D86EB7FE6CA90B.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Autosaves/Game/StarterContent/Props/initialShadingGroup_Auto1.uasset'
+[2020.05.11-11.22.26:375][524]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/Tablet_pCylinder4] ([1] browsable assets)...
+[2020.05.11-11.22.26:403][524]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Props/Tablet_pCylinder4.Tablet_pCylinder4]
+[2020.05.11-11.22.26:403][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/Tablet_pCylinder4]
+[2020.05.11-11.22.26:417][524]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Tablet_pCylinder4_Auto175E2F9F34D0951AC6DF2399484E0B04D.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Autosaves/Game/StarterContent/Props/Tablet_pCylinder4_Auto1.uasset'
+[2020.05.11-11.22.26:418][524]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/initialShadingGroup_ncl1_1] ([1] browsable assets)...
+[2020.05.11-11.22.26:443][524]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/initialShadingGroup_ncl1_1.initialShadingGroup_ncl1_1]
+[2020.05.11-11.22.26:443][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/initialShadingGroup_ncl1_1]
+[2020.05.11-11.22.26:455][524]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/initialShadingGroup_ncl1_1_Auto10EF6AB6C4DE8F162E0E1E195A14863D0.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Autosaves/Game/StarterContent/Props/initialShadingGroup_ncl1_1_Auto1.uasset'
+[2020.05.11-11.22.26:457][524]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/Tablet_pCylinder7] ([1] browsable assets)...
+[2020.05.11-11.22.26:483][524]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Props/Tablet_pCylinder7.Tablet_pCylinder7]
+[2020.05.11-11.22.26:483][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/Tablet_pCylinder7]
+[2020.05.11-11.22.26:496][524]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Tablet_pCylinder7_Auto1B513EB39469421289252FC9B60513027.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Autosaves/Game/StarterContent/Props/Tablet_pCylinder7_Auto1.uasset'
+[2020.05.11-11.22.26:498][524]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/initialShadingGroup_ncl1_2] ([1] browsable assets)...
+[2020.05.11-11.22.26:521][524]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/initialShadingGroup_ncl1_2.initialShadingGroup_ncl1_2]
+[2020.05.11-11.22.26:521][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/initialShadingGroup_ncl1_2]
+[2020.05.11-11.22.26:535][524]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/initialShadingGroup_ncl1_2_Auto12166EBC04B6E640A40059982B72F1A34.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Autosaves/Game/StarterContent/Props/initialShadingGroup_ncl1_2_Auto1.uasset'
+[2020.05.11-11.22.26:536][524]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/Tablet_pCylinder6] ([1] browsable assets)...
+[2020.05.11-11.22.26:561][524]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Props/Tablet_pCylinder6.Tablet_pCylinder6]
+[2020.05.11-11.22.26:561][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/Tablet_pCylinder6]
+[2020.05.11-11.22.26:575][524]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Tablet_pCylinder6_Auto1E967E528448F68440313648A32C8808E.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Autosaves/Game/StarterContent/Props/Tablet_pCylinder6_Auto1.uasset'
+[2020.05.11-11.22.26:576][524]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/initialShadingGroup_ncl1_3] ([1] browsable assets)...
+[2020.05.11-11.22.26:602][524]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/initialShadingGroup_ncl1_3.initialShadingGroup_ncl1_3]
+[2020.05.11-11.22.26:603][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/initialShadingGroup_ncl1_3]
+[2020.05.11-11.22.26:615][524]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/initialShadingGroup_ncl1_3_Auto1AC5D8E0849A31DC8CF6274BF2D236783.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Autosaves/Game/StarterContent/Props/initialShadingGroup_ncl1_3_Auto1.uasset'
+[2020.05.11-11.22.26:616][524]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/Tablet_pCylinder1] ([1] browsable assets)...
+[2020.05.11-11.22.26:638][524]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/StarterContent/Props/Tablet_pCylinder1.Tablet_pCylinder1]
+[2020.05.11-11.22.26:638][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/Tablet_pCylinder1]
+[2020.05.11-11.22.26:649][524]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Tablet_pCylinder1_Auto1A14FDF684F60B16F966A2A9EB566208A.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Autosaves/Game/StarterContent/Props/Tablet_pCylinder1_Auto1.uasset'
+[2020.05.11-11.22.26:650][524]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Props/initialShadingGroup_ncl1_4] ([1] browsable assets)...
+[2020.05.11-11.22.26:672][524]OBJ SavePackage:     Rendered thumbnail for [Material /Game/StarterContent/Props/initialShadingGroup_ncl1_4.initialShadingGroup_ncl1_4]
+[2020.05.11-11.22.26:672][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Props/initialShadingGroup_ncl1_4]
+[2020.05.11-11.22.26:685][524]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/initialShadingGroup_ncl1_4_Auto17BE03CE14312B6A4F3A16CB76B64C554.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Autosaves/Game/StarterContent/Props/initialShadingGroup_ncl1_4_Auto1.uasset'
+[2020.05.11-11.22.26:686][524]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/Textures/Tablet_initialShadingGroup_color] ([1] browsable assets)...
+[2020.05.11-11.22.26:697][524]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/StarterContent/Textures/Tablet_initialShadingGroup_color.Tablet_initialShadingGroup_color]
+[2020.05.11-11.22.26:697][524]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/Textures/Tablet_initialShadingGroup_color]
+[2020.05.11-11.22.26:730][524]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Tablet_initialShadingGroup_colorDAC665BD4FFBE65EDAA74BB6F5C2E1EF.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Autosaves/Game/StarterContent/Textures/Tablet_initialShadingGroup_color_Auto1.uasset'
+[2020.05.11-11.22.26:731][524]LogFileHelpers: Auto-saving content packages took 0.663
+[2020.05.11-13.23.27:339][291]LogUObjectHash: Compacting FUObjectHashTables data took  26.61ms
+[2020.05.11-13.23.28:545][291]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Minimal_Default32F3211C4DEAA1CC42B96A8183EBA04A.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Content/StarterContent/Maps/Minimal_Default.umap'
+[2020.05.11-13.23.28:634][291]AssetCheck: New page: Asset Save: Minimal_Default
+[2020.05.11-13.23.28:635][291]LogContentValidation: Display: Validating World /Game/StarterContent/Maps/Minimal_Default.Minimal_Default
+[2020.05.11-13.26.17:595][174]LogAudioMixer: Display: Audio Buffer Underrun detected.
+[2020.05.11-13.29.33:132][ 15]LogSlate: Window 'Source Control Login' being destroyed
+[2020.05.11-13.29.45:517][442]SourceControl: fatal: D:/SteamLibrary/UE_4.24/Engine/Content: 'D:/SteamLibrary/UE_4.24/Engine/Content' is outside repository
+[2020.05.11-13.30.09:098][442]LogSlate: Window 'Submit Files' being destroyed
+[2020.05.11-13.30.36:133][302]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Tablet_initialShadingGroup_color4AAA37C04C9076692874FCA9AFF32A59.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Content/StarterContent/Textures/Tablet_initialShadingGroup_color.uasset'
+[2020.05.11-13.30.37:428][302]AssetCheck: New page: Asset Save: Tablet_initialShadingGroup_color
+[2020.05.11-13.30.37:428][302]LogContentValidation: Display: Validating Texture2D /Game/StarterContent/Textures/Tablet_initialShadingGroup_color.Tablet_initialShadingGroup_color
+[2020.05.11-13.30.45:914][528]LogSavePackage: Moving '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Saved/Tablet_initialShadingGroup_color036883BA49698FD318046EBDFB4A91C6.tmp' to '../../../../../HKU/HKU Jaar 2/Periode 4/Project Vrij/Nieuwe map/TheTemple/Content/StarterContent/Textures/Tablet_initialShadingGroup_color_Mat.uasset'
+[2020.05.11-13.30.46:880][528]AssetCheck: New page: Asset Save: Tablet_initialShadingGroup_color_Mat
+[2020.05.11-13.30.46:880][528]LogContentValidation: Display: Validating Material /Game/StarterContent/Textures/Tablet_initialShadingGroup_color_Mat.Tablet_initialShadingGroup_color_Mat
+[2020.05.11-13.30.54:949][801]SourceControl: fatal: D:/SteamLibrary/UE_4.24/Engine/Content: 'D:/SteamLibrary/UE_4.24/Engine/Content' is outside repository
+[2020.05.11-13.31.06:372][801]LogSlate: Window 'Submit Files' being destroyed
+[2020.05.11-13.31.08:443][801]LogSourceControl: commit successful: [master e046e9c] RingsAdded
+[2020.05.11-13.31.09:245][801]SourceControl: [master e046e9c] RingsAdded
+[2020.05.11-13.31.09:245][801]SourceControl:  3 files changed, 0 insertions(+), 0 deletions(-)
+[2020.05.11-13.31.09:245][801]SourceControl:  create mode 100644 TheTemple/Content/StarterContent/Textures/Tablet_initialShadingGroup_color.uasset
+[2020.05.11-13.31.09:245][801]SourceControl:  create mode 100644 TheTemple/Content/StarterContent/Textures/Tablet_initialShadingGroup_color_Mat.uasset
+[2020.05.11-13.31.09:283][801]SourceControl: Commited [master e046e9c] RingsAdded.
