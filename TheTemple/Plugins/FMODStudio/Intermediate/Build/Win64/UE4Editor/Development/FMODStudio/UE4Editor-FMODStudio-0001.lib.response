@@ -1,0 +1,14 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FMODStudio-0001.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudio\PCH.FMODStudio.h.obj"
+"A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudio\Module.FMODStudio.cpp.obj"
+"A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudio\Module.FMODStudio.gen.cpp.obj"
+"A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudio\Default.rc2.res"
+/OUT:"A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Development\FMODStudio\UE4Editor-FMODStudio-0001.lib"
+/INCLUDE:IMPLEMENT_MODULE_FMODStudio

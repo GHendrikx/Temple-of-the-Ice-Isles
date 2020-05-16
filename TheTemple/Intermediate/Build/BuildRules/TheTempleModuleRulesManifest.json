@@ -1,10 +1,10 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\manou\\OneDrive\\Documenten\\1. HKU\\Jaar 2\\Blok 4\\Project Vrij ll\\SourceTree Temple\\TheTemple\\Source\\TheTemple\\TheTemple.Build.cs",
-		"C:\\Users\\manou\\OneDrive\\Documenten\\1. HKU\\Jaar 2\\Blok 4\\Project Vrij ll\\SourceTree Temple\\TheTemple\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
-		"C:\\Users\\manou\\OneDrive\\Documenten\\1. HKU\\Jaar 2\\Blok 4\\Project Vrij ll\\SourceTree Temple\\TheTemple\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs",
-		"C:\\Users\\manou\\OneDrive\\Documenten\\1. HKU\\Jaar 2\\Blok 4\\Project Vrij ll\\SourceTree Temple\\TheTemple\\Source\\TheTemple.Target.cs",
-		"C:\\Users\\manou\\OneDrive\\Documenten\\1. HKU\\Jaar 2\\Blok 4\\Project Vrij ll\\SourceTree Temple\\TheTemple\\Source\\TheTempleEditor.Target.cs"
+		"A:\\Users\\Geoffrey\\Documents\\ProjectVrij\\Temple-of-the-Ice-Isles\\TheTemple\\Source\\TheTemple\\TheTemple.Build.cs",
+		"A:\\Users\\Geoffrey\\Documents\\ProjectVrij\\Temple-of-the-Ice-Isles\\TheTemple\\Plugins\\FMODStudio\\Source\\FMODStudio\\FMODStudio.Build.cs",
+		"A:\\Users\\Geoffrey\\Documents\\ProjectVrij\\Temple-of-the-Ice-Isles\\TheTemple\\Plugins\\FMODStudio\\Source\\FMODStudioEditor\\FMODStudioEditor.Build.cs",
+		"A:\\Users\\Geoffrey\\Documents\\ProjectVrij\\Temple-of-the-Ice-Isles\\TheTemple\\Source\\TheTemple.Target.cs",
+		"A:\\Users\\Geoffrey\\Documents\\ProjectVrij\\Temple-of-the-Ice-Isles\\TheTemple\\Source\\TheTempleEditor.Target.cs"
 	],
 	"EngineVersion": "4.24.3"
 }

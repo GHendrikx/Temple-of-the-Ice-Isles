@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\TheTemple.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{02B6080C-7E2B-4C6C-B716-EA51BAD84B4B}</UniqueIdentifier>
+      <UniqueIdentifier>{B3E46803-43E1-4211-A5DB-9B5EC5441699}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\TheTemple.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{6B2457AA-3FCA-4076-AD9D-62E62F71BC2A}</UniqueIdentifier>
+      <UniqueIdentifier>{0FFF16E5-06E4-48F8-A841-A9AF5A1D38E2}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,127 +27,16 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Plugins">
-      <UniqueIdentifier>{E4B65EB2-6EDD-42B2-981D-E9885C48935E}</UniqueIdentifier>
+      <UniqueIdentifier>{BB6D089D-B297-46DB-93C4-EB63B5EB4C01}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\FMODStudio">
-      <UniqueIdentifier>{896DEAC5-6FB4-467F-81AC-3AE67359DB03}</UniqueIdentifier>
+      <UniqueIdentifier>{6072FBA1-FE4B-4B57-B6A8-8E1E0573D8B9}</UniqueIdentifier>
     </Filter>
     <Filter Include="Plugins\FMODStudio\Source">
-      <UniqueIdentifier>{01B30C8F-EC64-46BA-881F-4A3CE52D86A9}</UniqueIdentifier>
+      <UniqueIdentifier>{275996D6-CA5D-445B-8488-0B627902B48B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor">
-      <UniqueIdentifier>{38354ABD-A77F-4280-BC77-4BD78066265B}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\FMODStudioEditor.Build.cs">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor</Filter>
-    </None>
-    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor\Classes">
-      <UniqueIdentifier>{3F3C05B4-E338-466C-92BE-6CE04001FB17}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Classes\FMODAmbientSoundActorFactory.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Classes</Filter>
-    </ClInclude>
-    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor\Private">
-      <UniqueIdentifier>{408DC7F5-C548-4F8A-A4F3-7979A325A0DC}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\AssetTypeActions_FMODEvent.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\AssetTypeActions_FMODEvent.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAmbientSoundActorFactory.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAssetBroker.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAudioComponentDetails.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAudioComponentDetails.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAudioComponentVisualizer.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAudioComponentVisualizer.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODEventEditor.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODEventEditor.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODSettingsCustomization.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODSettingsCustomization.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioEditorModule.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioEditorPrivatePCH.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioStyle.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioStyle.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\SFMODEventEditorPanel.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\SFMODEventEditorPanel.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
-    </ClInclude>
-    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer">
-      <UniqueIdentifier>{AA0D063A-F1CE-4A60-B998-DF58F407CBC1}</UniqueIdentifier>
-    </Filter>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODChannelEditors.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODChannelEditors.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODEventControlTrackEditor.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODEventControlTrackEditor.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODEventParameterTrackEditor.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODEventParameterTrackEditor.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
-    </ClInclude>
-    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODParameterSection.cpp">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODParameterSection.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
-    </ClInclude>
-    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor\Public">
-      <UniqueIdentifier>{6C31B388-924C-4663-B5FE-3DF0DC73E40B}</UniqueIdentifier>
-    </Filter>
-    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Public\FMODStudioEditorModule.h">
-      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Public</Filter>
-    </ClInclude>
-    <None Include="..\..\Plugins\FMODStudio\FMODStudio.uplugin">
-      <Filter>Plugins\FMODStudio</Filter>
-    </None>
-    <Filter Include="Plugins\FMODStudio\Resources">
-      <UniqueIdentifier>{4B0F187D-027C-44E7-880B-095D71C424EE}</UniqueIdentifier>
-    </Filter>
-    <None Include="..\..\Plugins\FMODStudio\Resources\Icon128.png">
-      <Filter>Plugins\FMODStudio\Resources</Filter>
-    </None>
     <Filter Include="Plugins\FMODStudio\Source\FMODStudio">
-      <UniqueIdentifier>{3C591BFC-7063-4CF3-AA4F-31395944FDA8}</UniqueIdentifier>
+      <UniqueIdentifier>{90C287FF-CBF9-4748-B4F4-D1218C56295F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Plugins\FMODStudio\Source\FMODStudio\FMODStudio.Build.cs">
       <Filter>Plugins\FMODStudio\Source\FMODStudio</Filter>
@@ -159,7 +48,7 @@
       <Filter>Plugins\FMODStudio\Source\FMODStudio</Filter>
     </None>
     <Filter Include="Plugins\FMODStudio\Source\FMODStudio\Classes">
-      <UniqueIdentifier>{152DF401-921E-4E84-BDCF-13208F333393}</UniqueIdentifier>
+      <UniqueIdentifier>{0FF1ACBA-BE19-46A3-8A39-BF13CA7FE47F}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAmbientSound.h">
       <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
@@ -198,7 +87,7 @@
       <Filter>Plugins\FMODStudio\Source\FMODStudio\Classes</Filter>
     </ClInclude>
     <Filter Include="Plugins\FMODStudio\Source\FMODStudio\Private">
-      <UniqueIdentifier>{CBCF8D6C-9F93-4D63-B0A1-3F8783351DDD}</UniqueIdentifier>
+      <UniqueIdentifier>{4CE42C11-699F-4893-8620-5C331E324652}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAmbientSound.cpp">
       <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
@@ -273,7 +162,7 @@
       <Filter>Plugins\FMODStudio\Source\FMODStudio\Private</Filter>
     </ClCompile>
     <Filter Include="Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer">
-      <UniqueIdentifier>{4031F4A5-F94D-4ADE-9015-EB9BF368990A}</UniqueIdentifier>
+      <UniqueIdentifier>{19FE1937-40F7-471D-BAA6-E48A55AB1331}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSection.cpp">
       <Filter>Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer</Filter>
@@ -306,7 +195,7 @@
       <Filter>Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer</Filter>
     </ClInclude>
     <Filter Include="Plugins\FMODStudio\Source\FMODStudio\Public">
-      <UniqueIdentifier>{77498B2E-BCCF-46F7-87F9-DCD952E9B5D1}</UniqueIdentifier>
+      <UniqueIdentifier>{B401244F-C60E-4CA2-B7F7-C0EDC4655EB7}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMODStudioModule.h">
       <Filter>Plugins\FMODStudio\Source\FMODStudio\Public</Filter>
@@ -315,7 +204,7 @@
       <Filter>Plugins\FMODStudio\Source\FMODStudio\Public</Filter>
     </ClInclude>
     <Filter Include="Plugins\FMODStudio\Source\FMODStudio\Public\FMOD">
-      <UniqueIdentifier>{2CBD63B5-FB37-4E93-B85D-C4FE128B2542}</UniqueIdentifier>
+      <UniqueIdentifier>{8F99ED79-7D76-4EBF-B74C-18161A4D9B9D}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod.h">
       <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
@@ -353,9 +242,126 @@
     <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio_common.h">
       <Filter>Plugins\FMODStudio\Source\FMODStudio\Public\FMOD</Filter>
     </ClInclude>
-    <Filter Include="Source\TheTemple">
-      <UniqueIdentifier>{10C917D7-31DA-4923-9A37-84BD8FF47901}</UniqueIdentifier>
+    <None Include="..\..\Plugins\FMODStudio\FMODStudio.uplugin">
+      <Filter>Plugins\FMODStudio</Filter>
+    </None>
+    <Filter Include="Plugins\FMODStudio\Resources">
+      <UniqueIdentifier>{115BFE90-4E5E-4EB2-91FB-FCB5844AEB94}</UniqueIdentifier>
     </Filter>
+    <None Include="..\..\Plugins\FMODStudio\Resources\Icon128.png">
+      <Filter>Plugins\FMODStudio\Resources</Filter>
+    </None>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor">
+      <UniqueIdentifier>{FB292879-09DF-4BA4-B86C-EF7A4AC1E829}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\FMODStudioEditor.Build.cs">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor</Filter>
+    </None>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor\Classes">
+      <UniqueIdentifier>{C8FB7320-48D8-47DB-B993-AC85A9BAE95B}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Classes\FMODAmbientSoundActorFactory.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Classes</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor\Private">
+      <UniqueIdentifier>{C29D12B2-0B35-48BA-BDC6-8010FFE4921D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\AssetTypeActions_FMODEvent.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\AssetTypeActions_FMODEvent.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAmbientSoundActorFactory.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAssetBroker.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAudioComponentDetails.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAudioComponentDetails.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAudioComponentVisualizer.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODAudioComponentVisualizer.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODEventEditor.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODEventEditor.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODSettingsCustomization.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODSettingsCustomization.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioEditorModule.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioEditorPrivatePCH.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioStyle.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\FMODStudioStyle.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\SFMODEventEditorPanel.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\SFMODEventEditorPanel.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer">
+      <UniqueIdentifier>{75E8C3D5-7E01-4499-9B7B-541E2BE936B8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODChannelEditors.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODChannelEditors.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODEventControlTrackEditor.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODEventControlTrackEditor.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODEventParameterTrackEditor.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODEventParameterTrackEditor.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODParameterSection.cpp">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer\FMODParameterSection.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Private\Sequencer</Filter>
+    </ClInclude>
+    <Filter Include="Plugins\FMODStudio\Source\FMODStudioEditor\Public">
+      <UniqueIdentifier>{57002AD2-B849-4659-8C79-80DBE9AA9A57}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Plugins\FMODStudio\Source\FMODStudioEditor\Public\FMODStudioEditorModule.h">
+      <Filter>Plugins\FMODStudio\Source\FMODStudioEditor\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\TheTemple">
+      <UniqueIdentifier>{3E0BFDD8-8D89-478D-B65A-0358C402E5A8}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\TheTemple\SinusFloatingBlock.cpp">
+      <Filter>Source\TheTemple</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\TheTemple\SinusFloatingBlock.h">
+      <Filter>Source\TheTemple</Filter>
+    </ClInclude>
     <None Include="..\..\Source\TheTemple\TheTemple.Build.cs">
       <Filter>Source\TheTemple</Filter>
     </None>
