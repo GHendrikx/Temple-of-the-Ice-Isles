@@ -1,0 +1,8 @@
+New version Added:
+AudioChild
+Crawlspaces
+PuzzleAudio
+RandomInPuzzleRoom
+Fmod Banks
+
+Implemented the Audio. except the random in puzzleroom audio.
