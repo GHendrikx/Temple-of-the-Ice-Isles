@@ -72,3 +72,6 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+TheTemple/Saved/Backup/
+TheTemple/Saved/Config/CrashReportClient/
+TheTemple/Saved/Logs/
