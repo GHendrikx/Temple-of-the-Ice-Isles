@@ -1,4 +1,4 @@
-﻿Log file open, 06/06/20 11:27:04
+﻿Log file open, 06/12/20 14:36:30
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: TheTemple
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.135488
+LogStats: Stats thread started at 0.146362
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -165,684 +165,644 @@ LogInit: Presizing for max 25165824 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[r.RayTracing:1]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
-[2020.06.06-09.27.05:779][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.06.06-09.27.05:779][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.06.06-09.27.05:780][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.06.06-09.27.05:780][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.06.06-09.27.05:780][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.06.06-09.27.05:780][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.06.06-09.27.05:780][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
-[2020.06.06-09.27.05:780][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.06.06-09.27.05:780][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.06.06-09.27.05:780][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.06.06-09.27.05:780][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.06.06-09.27.05:780][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.06.06-09.27.05:780][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.06.06-09.27.05:780][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
-[2020.06.06-09.27.05:780][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
-[2020.06.06-09.27.05:788][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:788][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.06-09.27.05:788][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.06-09.27.05:788][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:788][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.06-09.27.05:788][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:788][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.06-09.27.05:788][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.06-09.27.05:788][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.06-09.27.05:788][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.06-09.27.05:788][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.06-09.27.05:788][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.06-09.27.05:788][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.06-09.27.05:789][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.06-09.27.05:790][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.06.06-09.27.05:791][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.06.06-09.27.05:791][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.06-09.27.05:791][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.06.06-09.27.05:795][  0]LogHAL: Display: Platform has ~ 8 GB [8511406080 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.06.06-09.27.05:795][  0]LogInit: Going up to parent DeviceProfile []
-[2020.06.06-09.27.05:795][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:795][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.06.06-09.27.05:795][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.06.06-09.27.05:795][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:795][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.06.06-09.27.05:795][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:795][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.06.06-09.27.05:795][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.06.06-09.27.05:796][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
-[2020.06.06-09.27.05:797][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
-[2020.06.06-09.27.05:798][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.06.06-09.27.05:799][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.06.06-09.27.05:799][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.06.06-09.27.05:799][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
-[2020.06.06-09.27.05:799][  0]LogInit: Computer: GEOFFREY-GAMING
-[2020.06.06-09.27.05:799][  0]LogInit: User: Geoffrey
-[2020.06.06-09.27.05:799][  0]LogInit: CPU Page size=4096, Cores=4
-[2020.06.06-09.27.05:799][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.06.06-09.27.05:799][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.06.06-09.27.05:799][  0]LogMemory: Platform Memory Stats for Windows
-[2020.06.06-09.27.05:799][  0]LogMemory: Process Physical Memory: 113.07 MB used, 113.07 MB peak
-[2020.06.06-09.27.05:799][  0]LogMemory: Process Virtual Memory: 103.81 MB used, 103.81 MB peak
-[2020.06.06-09.27.05:799][  0]LogMemory: Physical Memory: 5695.35 MB used,  2421.76 MB free, 8117.11 MB total
-[2020.06.06-09.27.05:799][  0]LogMemory: Virtual Memory: 5128.71 MB used,  134212600.00 MB free, 134217728.00 MB total
-[2020.06.06-09.27.05:811][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.06.06-09.27.05:848][  0]LogInit: Using OS detected language (en-US).
-[2020.06.06-09.27.05:848][  0]LogInit: Using OS detected locale (en-GB).
-[2020.06.06-09.27.05:850][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.06.06-09.27.06:127][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.06.06-09.27.06:127][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.06.06-09.27.06:392][  0]LogD3D12RHI: Aftermath initialized
-[2020.06.06-09.27.06:392][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/DirectX/x64).
-[2020.06.06-09.27.06:463][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2020.06.06-09.27.06:598][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce GTX 970 (Max supported Feature Level 12_1)
-[2020.06.06-09.27.06:598][  0]LogD3D12RHI: Adapter has 4043MB of dedicated video memory, 0MB of dedicated system memory, and 4058MB of shared system memory, 2 output[s]
-[2020.06.06-09.27.06:620][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
-[2020.06.06-09.27.06:620][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4058MB of shared system memory, 0 output[s]
-[2020.06.06-09.27.06:620][  0]LogD3D12RHI: Forcing D3D12.AsyncDeferredDeletion=0 as a workaround for a deadlock.
-[2020.06.06-09.27.06:620][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
-[2020.06.06-09.27.06:632][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
-[2020.06.06-09.27.06:706][  0]LogD3D12RHI: The system supports ID3D12Device1.
-[2020.06.06-09.27.06:706][  0]LogD3D12RHI: The system supports ID3D12Device2.
-[2020.06.06-09.27.06:810][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
-[2020.06.06-09.27.06:810][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
-[2020.06.06-09.27.06:814][  0]LogD3D12RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
-[2020.06.06-09.27.06:814][  0]LogWindows: EnumDisplayDevices:
-[2020.06.06-09.27.06:814][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
-[2020.06.06-09.27.06:815][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
-[2020.06.06-09.27.06:816][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2020.06.06-09.27.06:817][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
-[2020.06.06-09.27.06:817][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2020.06.06-09.27.06:817][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce GTX 970
-[2020.06.06-09.27.06:817][  0]LogD3D12RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
-[2020.06.06-09.27.06:817][  0]LogD3D12RHI:      Driver Date: 3-17-2020
-[2020.06.06-09.27.06:817][  0]LogRHI: Texture pool is 2165 MB (70% of 3093 MB)
-[2020.06.06-09.27.06:817][  0]LogD3D12RHI: Async texture creation enabled
-[2020.06.06-09.27.06:817][  0]LogD3D12RHI: RHI has support for 64 bit atomics
-[2020.06.06-09.27.07:405][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
-[2020.06.06-09.27.07:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
-[2020.06.06-09.27.07:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
-[2020.06.06-09.27.07:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
-[2020.06.06-09.27.07:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
-[2020.06.06-09.27.07:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
-[2020.06.06-09.27.07:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
-[2020.06.06-09.27.07:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
-[2020.06.06-09.27.07:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
-[2020.06.06-09.27.07:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
-[2020.06.06-09.27.07:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
-[2020.06.06-09.27.07:444][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
-[2020.06.06-09.27.07:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
-[2020.06.06-09.27.07:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
-[2020.06.06-09.27.07:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
-[2020.06.06-09.27.07:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
-[2020.06.06-09.27.07:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
-[2020.06.06-09.27.07:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
-[2020.06.06-09.27.07:445][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
-[2020.06.06-09.27.07:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
-[2020.06.06-09.27.07:469][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
-[2020.06.06-09.27.07:478][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
-[2020.06.06-09.27.07:487][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
-[2020.06.06-09.27.07:496][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
-[2020.06.06-09.27.07:505][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
-[2020.06.06-09.27.07:515][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
-[2020.06.06-09.27.07:525][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
-[2020.06.06-09.27.07:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
-[2020.06.06-09.27.07:557][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
-[2020.06.06-09.27.07:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
-[2020.06.06-09.27.07:575][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
-[2020.06.06-09.27.07:584][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
-[2020.06.06-09.27.07:595][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
-[2020.06.06-09.27.07:604][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
-[2020.06.06-09.27.07:615][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
-[2020.06.06-09.27.07:615][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.06.06-09.27.07:620][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.06.06-09.27.07:658][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Intermediate/Shaders/WorkingDirectory/40256/).
-[2020.06.06-09.27.07:658][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Geoffrey/AppData/Local/Temp/UnrealShaderWorkingDir/655C571F42AB8BD401D029AA14C61F8C/'.
-[2020.06.06-09.27.07:659][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.06.06-09.27.07:659][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.06.06-09.27.07:659][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.06.06-09.27.08:679][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.06.06-09.27.08:799][  0]LogDerivedDataCache: Loaded boot cache 0.12s 115MB C:/Users/Geoffrey/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.06.06-09.27.08:799][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Geoffrey/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
-[2020.06.06-09.27.08:799][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.06.06-09.27.08:799][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.06.06-09.27.08:799][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.06-09.27.08:799][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.06.06-09.27.08:813][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.06.06-09.27.08:813][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.06.06-09.27.08:813][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.06.06-09.27.08:848][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Geoffrey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.06.06-09.27.08:848][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.06.06-09.27.08:848][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.06.06-09.27.08:882][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.06.06-09.27.08:885][  0]LogSlate: Using FreeType 2.10.0
-[2020.06.06-09.27.08:886][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.06.06-09.27.09:015][  0]LogAssetRegistry: FAssetRegistry took 0.0192 seconds to start up
-[2020.06.06-09.27.09:444][  0]LogInit: Selected Device Profile: [Windows]
-[2020.06.06-09.27.09:683][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.06.06-09.27.09:683][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.06.06-09.27.09:683][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.06.06-09.27.09:683][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.06.06-09.27.09:683][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.06.06-09.27.09:702][  0]LogNetVersion: TheTemple 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 885478188)
-[2020.06.06-09.27.12:240][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 1.020309 seconds
-[2020.06.06-09.27.12:248][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
-[2020.06.06-09.27.12:248][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
-[2020.06.06-09.27.12:248][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.06.06-09.27.13:157][  0]LogFMOD: FFMODStudioModule startup
-[2020.06.06-09.27.13:157][  0]LogFMOD:  Lib path = 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Binaries'
-[2020.06.06-09.27.13:157][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Binaries/Win64/fmodL.dll
-[2020.06.06-09.27.13:572][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Binaries/Win64/fmodstudioL.dll
-[2020.06.06-09.27.15:912][  0]LogFMOD: Loading strings bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/Master.strings.bank
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/crouch/l
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/walk/r
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/run/l
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/crouch/l
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/ingame/shortrun
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/msc/PuzzleSegment
-[2020.06.06-09.27.15:914][  0]LogFMOD: Skipping asset: bus:/
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/amb/temple
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/ui/Play
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/run/l
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/jump
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/int/puzzle
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/land
-[2020.06.06-09.27.15:914][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/walk/l
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/PlayerSounds
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/walk/l
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_03
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_07
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/walk/r
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/jump
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/ingame/effort
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/PlayerSounds/Footsteps/Sand
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/run/r
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/run/l
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/land
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Music
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/amb/main_menu
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_05
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/sfx/amb
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/run/r
-[2020.06.06-09.27.15:915][  0]LogFMOD: Skipping asset: bank:/Master.strings
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/walk/r
-[2020.06.06-09.27.15:915][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_04
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/sfx/int
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_03
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_02
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/crouch/l
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/walk/l
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/sfx/vo
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/land
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/crouch/l
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/PlayerSounds/Footsteps/Stone
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/ingame/crateputdown
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/ingame/cratelift
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/int/pickup
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_07
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/int/placedown
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/PlayerSounds/Footsteps/Water
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/PlayerSounds/Footsteps
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_06
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/ingame/struggle
-[2020.06.06-09.27.15:916][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_04
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/run/r
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_02
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/crouch/r
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/land
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/ingame/longrun
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/crouch/r
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/crouch/r
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/walk/l
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/int/vision
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/jump
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/run/r
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/sfx/fst
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_01
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_05
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_01
-[2020.06.06-09.27.15:917][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/sfx/ui
-[2020.06.06-09.27.15:918][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/walk/r
-[2020.06.06-09.27.15:918][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/PlayerSounds/Footsteps/Snow
-[2020.06.06-09.27.15:918][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/run/l
-[2020.06.06-09.27.15:918][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/crouch/r
-[2020.06.06-09.27.15:918][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/int/templedoor
-[2020.06.06-09.27.15:918][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/int/eye_cutout
-[2020.06.06-09.27.15:918][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/jump
-[2020.06.06-09.27.15:918][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_06
-[2020.06.06-09.27.15:931][  0]LogFMOD: Default sample rate = 48000
-[2020.06.06-09.27.15:931][  0]LogFMOD: System sample rate = 48000
-[2020.06.06-09.27.15:931][  0]LogFMOD: Matching system sample rate 48000
-[2020.06.06-09.27.16:375][  0]LogFMOD: Warning: e:\jk\workspace\2.0_UE4.24_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(549) - Starvation detected in WASAPI output buffer!
+[2020.06.12-12.36.31:651][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.06.12-12.36.31:651][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.06.12-12.36.31:651][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
+[2020.06.12-12.36.31:651][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.06.12-12.36.31:651][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:1]]
+[2020.06.12-12.36.31:651][  0]LogConfig: Setting CVar [[r.RayTracing:1]]
+[2020.06.12-12.36.31:651][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:1]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
+[2020.06.12-12.36.31:652][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.06.12-12.36.31:652][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
+[2020.06.12-12.36.31:652][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
+[2020.06.12-12.36.31:660][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.12-12.36.31:661][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.12-12.36.31:662][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.12-12.36.31:663][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.12-12.36.31:664][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.12-12.36.31:664][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.12-12.36.31:664][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.06.12-12.36.31:668][  0]LogHAL: Display: Platform has ~ 8 GB [8511406080 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.06.12-12.36.31:668][  0]LogInit: Going up to parent DeviceProfile []
+[2020.06.12-12.36.31:668][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.06.12-12.36.31:668][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.06.12-12.36.31:669][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountPerSlice:1]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:32.0]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2020.06.12-12.36.31:670][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:32.0]]
+[2020.06.12-12.36.31:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2020.06.12-12.36.31:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2020.06.12-12.36.31:671][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2020.06.12-12.36.31:671][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:671][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.06.12-12.36.31:671][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.06.12-12.36.31:671][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Scalability.ini]
+[2020.06.12-12.36.31:671][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.SampleCount:16]]
+[2020.06.12-12.36.31:671][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.JitterIntegration:0]]
+[2020.06.12-12.36.31:671][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:16]]
+[2020.06.12-12.36.31:671][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.06.12-12.36.31:671][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.06.12-12.36.31:671][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.06.12-12.36.31:671][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Config/Windows/Engine.ini]
+[2020.06.12-12.36.31:672][  0]LogInit: Computer: GEOFFREY-GAMING
+[2020.06.12-12.36.31:672][  0]LogInit: User: Geoffrey
+[2020.06.12-12.36.31:672][  0]LogInit: CPU Page size=4096, Cores=4
+[2020.06.12-12.36.31:672][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.06.12-12.36.31:672][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.06.12-12.36.31:672][  0]LogMemory: Platform Memory Stats for Windows
+[2020.06.12-12.36.31:672][  0]LogMemory: Process Physical Memory: 109.46 MB used, 109.46 MB peak
+[2020.06.12-12.36.31:672][  0]LogMemory: Process Virtual Memory: 103.89 MB used, 103.89 MB peak
+[2020.06.12-12.36.31:672][  0]LogMemory: Physical Memory: 6687.01 MB used,  1430.10 MB free, 8117.11 MB total
+[2020.06.12-12.36.31:672][  0]LogMemory: Virtual Memory: 5128.17 MB used,  134212600.00 MB free, 134217728.00 MB total
+[2020.06.12-12.36.31:683][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.06.12-12.36.31:726][  0]LogInit: Using OS detected language (en-US).
+[2020.06.12-12.36.31:726][  0]LogInit: Using OS detected locale (en-GB).
+[2020.06.12-12.36.31:728][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.06.12-12.36.32:089][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.06.12-12.36.32:089][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.06.12-12.36.32:440][  0]LogD3D12RHI: Aftermath initialized
+[2020.06.12-12.36.32:440][  0]LogD3D12RHI: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/DirectX/x64).
+[2020.06.12-12.36.32:520][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.06.12-12.36.32:659][  0]LogD3D12RHI: Found D3D12 adapter 0: NVIDIA GeForce GTX 970 (Max supported Feature Level 12_1)
+[2020.06.12-12.36.32:659][  0]LogD3D12RHI: Adapter has 4043MB of dedicated video memory, 0MB of dedicated system memory, and 4058MB of shared system memory, 2 output[s]
+[2020.06.12-12.36.32:691][  0]LogD3D12RHI: Found D3D12 adapter 1: Microsoft Basic Render Driver (Max supported Feature Level 12_1)
+[2020.06.12-12.36.32:691][  0]LogD3D12RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4058MB of shared system memory, 0 output[s]
+[2020.06.12-12.36.32:691][  0]LogD3D12RHI: Forcing D3D12.AsyncDeferredDeletion=0 as a workaround for a deadlock.
+[2020.06.12-12.36.32:691][  0]LogD3D12RHI: Chosen D3D12 Adapter Id = 0
+[2020.06.12-12.36.32:702][  0]LogD3D12RHI: Emitting draw events for PIX profiling.
+[2020.06.12-12.36.32:776][  0]LogD3D12RHI: The system supports ID3D12Device1.
+[2020.06.12-12.36.32:776][  0]LogD3D12RHI: The system supports ID3D12Device2.
+[2020.06.12-12.36.32:892][  0]LogD3D12RHI: Display: Not using pipeline state disk cache per r.D3D12.PSO.DiskCache=0
+[2020.06.12-12.36.32:892][  0]LogD3D12RHI: Display: Not using driver-optimized pipeline state disk cache per r.D3D12.PSO.DriverOptimizedDiskCache=0
+[2020.06.12-12.36.32:894][  0]LogD3D12RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2020.06.12-12.36.32:894][  0]LogWindows: EnumDisplayDevices:
+[2020.06.12-12.36.32:895][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:0 D:1)
+[2020.06.12-12.36.32:895][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2020.06.12-12.36.32:896][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.06.12-12.36.32:897][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2020.06.12-12.36.32:897][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2020.06.12-12.36.32:897][  0]LogD3D12RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2020.06.12-12.36.32:897][  0]LogD3D12RHI:   Driver Version: 445.75 (internal:26.21.14.4575, unified:445.75)
+[2020.06.12-12.36.32:897][  0]LogD3D12RHI:      Driver Date: 3-17-2020
+[2020.06.12-12.36.32:898][  0]LogRHI: Texture pool is 2165 MB (70% of 3093 MB)
+[2020.06.12-12.36.32:898][  0]LogD3D12RHI: Async texture creation enabled
+[2020.06.12-12.36.32:898][  0]LogD3D12RHI: RHI has support for 64 bit atomics
+[2020.06.12-12.36.33:613][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2020.06.12-12.36.33:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2020.06.12-12.36.33:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2020.06.12-12.36.33:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATC'
+[2020.06.12-12.36.33:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2020.06.12-12.36.33:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1'
+[2020.06.12-12.36.33:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1a'
+[2020.06.12-12.36.33:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2020.06.12-12.36.33:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTC'
+[2020.06.12-12.36.33:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2020.06.12-12.36.33:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2020.06.12-12.36.33:648][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ATCClient'
+[2020.06.12-12.36.33:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2020.06.12-12.36.33:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1Client'
+[2020.06.12-12.36.33:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC1aClient'
+[2020.06.12-12.36.33:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2020.06.12-12.36.33:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_PVRTCClient'
+[2020.06.12-12.36.33:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2020.06.12-12.36.33:649][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2020.06.12-12.36.33:672][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2020.06.12-12.36.33:672][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2020.06.12-12.36.33:681][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2020.06.12-12.36.33:690][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2020.06.12-12.36.33:699][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2020.06.12-12.36.33:708][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2020.06.12-12.36.33:717][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2020.06.12-12.36.33:726][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2020.06.12-12.36.33:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2020.06.12-12.36.33:757][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2020.06.12-12.36.33:774][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2020.06.12-12.36.33:775][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2020.06.12-12.36.33:784][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2020.06.12-12.36.33:794][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2020.06.12-12.36.33:803][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2020.06.12-12.36.33:813][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2020.06.12-12.36.33:813][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.06.12-12.36.33:820][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.06.12-12.36.33:865][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Intermediate/Shaders/WorkingDirectory/9680/).
+[2020.06.12-12.36.33:866][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Geoffrey/AppData/Local/Temp/UnrealShaderWorkingDir/24E5CEE84DFB053F7D8107AE8D1940B5/'.
+[2020.06.12-12.36.33:867][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.06.12-12.36.33:867][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.06.12-12.36.33:867][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.06.12-12.36.34:759][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.06.12-12.36.34:852][  0]LogDerivedDataCache: Loaded boot cache 0.09s 121MB C:/Users/Geoffrey/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.12-12.36.34:852][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Geoffrey/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc
+[2020.06.12-12.36.34:852][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.06.12-12.36.34:852][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.06.12-12.36.34:852][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.12-12.36.34:852][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.06.12-12.36.34:863][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.06.12-12.36.34:863][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.06.12-12.36.34:863][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.06.12-12.36.34:865][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Geoffrey/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.06.12-12.36.34:865][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.06.12-12.36.34:865][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.06.12-12.36.34:900][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.06.12-12.36.34:902][  0]LogSlate: Using FreeType 2.10.0
+[2020.06.12-12.36.34:904][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.06.12-12.36.34:983][  0]LogAssetRegistry: FAssetRegistry took 0.0033 seconds to start up
+[2020.06.12-12.36.35:305][  0]LogInit: Selected Device Profile: [Windows]
+[2020.06.12-12.36.35:491][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.06.12-12.36.35:491][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.06.12-12.36.35:491][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.06.12-12.36.35:491][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.06.12-12.36.35:491][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.06.12-12.36.35:509][  0]LogNetVersion: TheTemple 1.0.0, NetCL: 10570792, EngineNetVer: 13, GameNetVer: 0 (Checksum: 885478188)
+[2020.06.12-12.36.37:058][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 1 prioritized culture(s) in 0.265695 seconds
+[2020.06.12-12.36.37:066][  0]LogUObjectArray: 46750 objects as part of root set at end of initial load.
+[2020.06.12-12.36.37:066][  0]LogUObjectAllocator: 8137160 out of 0 bytes used by permanent object pool.
+[2020.06.12-12.36.37:066][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.06.12-12.36.37:998][  0]LogFMOD: FFMODStudioModule startup
+[2020.06.12-12.36.37:999][  0]LogFMOD:  Lib path = 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Binaries'
+[2020.06.12-12.36.37:999][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Binaries/Win64/fmodL.dll
+[2020.06.12-12.36.38:130][  0]LogFMOD: FFMODStudioModule::LoadDll: Loading A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Binaries/Win64/fmodstudioL.dll
+[2020.06.12-12.36.38:762][  0]LogFMOD: Loading strings bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/Master.strings.bank
+[2020.06.12-12.36.38:764][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/crouch/l
+[2020.06.12-12.36.38:764][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/walk/r
+[2020.06.12-12.36.38:764][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/run/l
+[2020.06.12-12.36.38:764][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/crouch/l
+[2020.06.12-12.36.38:764][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/ingame/shortrun
+[2020.06.12-12.36.38:764][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Master
+[2020.06.12-12.36.38:764][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/msc/PuzzleSegment
+[2020.06.12-12.36.38:764][  0]LogFMOD: Skipping asset: bus:/
+[2020.06.12-12.36.38:764][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/amb/temple
+[2020.06.12-12.36.38:764][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/ui/Play
+[2020.06.12-12.36.38:764][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/run/l
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/jump
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/int/puzzle
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/land
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/walk/l
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/PlayerSounds
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/walk/l
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_03
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_07
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/walk/r
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/jump
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/ingame/effort
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/PlayerSounds/Footsteps/Sand
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/run/r
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/run/l
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/land
+[2020.06.12-12.36.38:765][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/Music
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/amb/main_menu
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_05
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/sfx/amb
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/run/r
+[2020.06.12-12.36.38:766][  0]LogFMOD: Skipping asset: bank:/Master.strings
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/walk/r
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_04
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/sfx/int
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_03
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_02
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/crouch/l
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/walk/l
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/sfx/vo
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/land
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/Reverb
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/crouch/l
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/PlayerSounds/Footsteps/Stone
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/ingame/crateputdown
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/ingame/cratelift
+[2020.06.12-12.36.38:766][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/int/pickup
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_07
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/int/placedown
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/PlayerSounds/Footsteps/Water
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/PlayerSounds/Footsteps
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_06
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/ingame/struggle
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_04
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/run/r
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_02
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/crouch/r
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/land
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/ingame/longrun
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/crouch/r
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/crouch/r
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/walk/l
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/int/vision
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/jump
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/snow/run/r
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/sfx/fst
+[2020.06.12-12.36.38:767][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_01
+[2020.06.12-12.36.38:768][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_05
+[2020.06.12-12.36.38:768][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/neva/voice_lines/VO_Neva_01
+[2020.06.12-12.36.38:768][  0]LogFMOD: Constructing asset: /Game/FMOD/Banks/sfx/ui
+[2020.06.12-12.36.38:768][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/walk/r
+[2020.06.12-12.36.38:768][  0]LogFMOD: Constructing asset: /Game/FMOD/Buses/PlayerSounds/Footsteps/Snow
+[2020.06.12-12.36.38:768][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/stone/run/l
+[2020.06.12-12.36.38:768][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/sand/crouch/r
+[2020.06.12-12.36.38:768][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/int/templedoor
+[2020.06.12-12.36.38:768][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/int/eye_cutout
+[2020.06.12-12.36.38:768][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/fst/water/jump
+[2020.06.12-12.36.38:768][  0]LogFMOD: Constructing asset: /Game/FMOD/Events/vo/mimir/VO_Mimir_06
+[2020.06.12-12.36.38:781][  0]LogFMOD: Default sample rate = 48000
+[2020.06.12-12.36.38:781][  0]LogFMOD: System sample rate = 48000
+[2020.06.12-12.36.38:781][  0]LogFMOD: Matching system sample rate 48000
+[2020.06.12-12.36.38:875][  0]LogFMOD: Default sample rate = 48000
+[2020.06.12-12.36.38:875][  0]LogFMOD: System sample rate = 48000
+[2020.06.12-12.36.38:875][  0]LogFMOD: Matching system sample rate 48000
+[2020.06.12-12.36.38:973][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.06.12-12.36.38:978][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.06.12-12.36.39:117][  0]SourceControl: Source control is disabled
+[2020.06.12-12.36.41:727][  0]LogFMOD: FFMODStudioEditorModule startup
+[2020.06.12-12.36.41:777][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.06.12-12.36.41:795][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.12-12.36.41:795][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2020.06.12-12.36.41:927][  0]LogOcInput: OculusInput pre-init called
+[2020.06.12-12.36.42:994][  0]LogEngine: Initializing Engine...
+[2020.06.12-12.36.43:072][  0]LogHMD: Failed to initialize OpenVR with code 108
+[2020.06.12-12.36.43:077][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.002 s
+[2020.06.12-12.36.43:591][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.06.12-12.36.43:680][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.06.12-12.36.43:700][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2020.06.12-12.36.43:700][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2020.06.12-12.36.43:700][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2020.06.12-12.36.43:700][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2020.06.12-12.36.43:701][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2020.06.12-12.36.43:701][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2020.06.12-12.36.43:701][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2020.06.12-12.36.43:701][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2020.06.12-12.36.43:703][  0]LogAudio: Display: Using built-in audio occlusion.
+[2020.06.12-12.36.43:703][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2020.06.12-12.36.43:724][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
+[2020.06.12-12.36.43:724][  0]LogAudioMixer: Display: Name: Headset Earphone (Razer Kraken 7.1 V2)
+[2020.06.12-12.36.43:724][  0]LogAudioMixer: Display: Is Default: Yes
+[2020.06.12-12.36.43:725][  0]LogAudioMixer: Display: Sample Rate: 48000
+[2020.06.12-12.36.43:725][  0]LogAudioMixer: Display: Channel Count Used: 2
+[2020.06.12-12.36.43:725][  0]LogAudioMixer: Display: Device Channel Count: 2
+[2020.06.12-12.36.43:725][  0]LogAudioMixer: Display: Channel Order:
+[2020.06.12-12.36.43:725][  0]LogAudioMixer: Display: 0: FrontLeft
+[2020.06.12-12.36.43:725][  0]LogAudioMixer: Display: 1: FrontRight
+[2020.06.12-12.36.43:806][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (Razer Kraken 7.1 V2)
+[2020.06.12-12.36.43:815][  0]LogInit: FAudioDevice initialized.
+[2020.06.12-12.36.43:816][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.06.12-12.36.43:933][  0]LogDerivedDataCache: Saved boot cache 0.12s 121MB C:/Users/Geoffrey/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
+[2020.06.12-12.36.43:939][  0]LogInit: Texture streaming: Enabled
+[2020.06.12-12.36.43:967][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.06.12-12.36.43:967][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.06.12-12.36.43:985][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.06.12-12.36.44:141][  0]LogInit: Transaction tracking system initialized
+[2020.06.12-12.36.44:194][  0]BlueprintLog: New page: Editor Load
+[2020.06.12-12.36.44:320][  0]LocalizationService: Localization service is disabled
+[2020.06.12-12.36.45:127][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.06.12-12.36.45:127][  0]LogCook: Display: Mobile HDR setting 1
+[2020.06.12-12.36.45:218][  0]LogFileCache: Scanning file cache for directory 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/' took 0.13s
+[2020.06.12-12.36.46:243][  0]Cmd: MAP LOAD FILE="A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.06.12-12.36.46:246][  0]LightingResults: New page: Lighting Build
+[2020.06.12-12.36.46:254][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.06.12-12.36.46:254][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2020.06.12-12.36.46:256][  0]MapCheck: New page: Map Check
+[2020.06.12-12.36.46:256][  0]LightingResults: New page: Lighting Build
+[2020.06.12-12.36.46:291][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2020.06.12-12.36.47:605][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/_Marvelmaster_infinite_reactive_water_/Blueprints/passive/GlobalUpdater_BP.uasset' failed to load '/Game/ExampleContent/BlueprintFluidSurface/Height0': Can't find file.
+[2020.06.12-12.36.47:605][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/_Marvelmaster_infinite_reactive_water_/Blueprints/passive/GlobalUpdater_BP.uasset' failed to load '/Game/ExampleContent/BlueprintFluidSurface/Height0': Can't find file.
+[2020.06.12-12.36.47:605][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/ExampleContent/BlueprintFluidSurface/Height0.Height0'
+[2020.06.12-12.36.47:605][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/_Marvelmaster_infinite_reactive_water_/Blueprints/passive/GlobalUpdater_BP.uasset' failed to load '/Game/ExampleContent/BlueprintFluidSurface/Height2': Can't find file.
+[2020.06.12-12.36.47:605][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/_Marvelmaster_infinite_reactive_water_/Blueprints/passive/GlobalUpdater_BP.uasset' failed to load '/Game/ExampleContent/BlueprintFluidSurface/Height2': Can't find file.
+[2020.06.12-12.36.47:605][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/ExampleContent/BlueprintFluidSurface/Height2.Height2'
+[2020.06.12-12.36.47:606][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/_Marvelmaster_infinite_reactive_water_/Blueprints/passive/GlobalUpdater_BP.uasset' failed to load '/Game/ExampleContent/BlueprintFluidSurface/Height1': Can't find file.
+[2020.06.12-12.36.47:606][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/_Marvelmaster_infinite_reactive_water_/Blueprints/passive/GlobalUpdater_BP.uasset' failed to load '/Game/ExampleContent/BlueprintFluidSurface/Height1': Can't find file.
+[2020.06.12-12.36.47:606][  0]LogUObjectGlobals: Warning: Failed to find object 'Object /Game/ExampleContent/BlueprintFluidSurface/Height1.Height1'
+[2020.06.12-12.36.48:000][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Perlin_Noise_M': Can't find file.
+[2020.06.12-12.36.48:001][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Perlin_Noise_M': Can't find file.
+[2020.06.12-12.36.48:001][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.48:001][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.48:001][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Perlin_Noise_M': Can't find file.
+[2020.06.12-12.36.48:001][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Perlin_Noise_M': Can't find file.
+[2020.06.12-12.36.48:001][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.48:001][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.50:706][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap' failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_a4': Can't find file.
+[2020.06.12-12.36.50:707][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap' failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_a4': Can't find file.
+[2020.06.12-12.36.50:707][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap' failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_b1': Can't find file.
+[2020.06.12-12.36.50:707][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap' failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_b1': Can't find file.
+[2020.06.12-12.36.51:551][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap' failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_a4': Can't find file.
+[2020.06.12-12.36.51:551][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap' failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_a4': Can't find file.
+[2020.06.12-12.36.51:552][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap' failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_b1': Can't find file.
+[2020.06.12-12.36.51:552][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap' failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_b1': Can't find file.
+[2020.06.12-12.36.51:572][  0]LogLinker: Warning: Failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_a4': Can't find file.
+[2020.06.12-12.36.51:572][  0]LogLinker: Warning: Failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_a4': Can't find file.
+[2020.06.12-12.36.51:572][  0]LogLinker: Warning: Failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_b1': Can't find file.
+[2020.06.12-12.36.51:572][  0]LogLinker: Warning: Failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_b1': Can't find file.
+[2020.06.12-12.36.51:572][  0]LogLinker: Warning: Failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_a4': Can't find file.
+[2020.06.12-12.36.51:572][  0]LogLinker: Warning: Failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_a4': Can't find file.
+[2020.06.12-12.36.51:573][  0]LogLinker: Warning: Failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_b1': Can't find file.
+[2020.06.12-12.36.51:573][  0]LogLinker: Warning: Failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_b1': Can't find file.
+[2020.06.12-12.36.51:682][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap' failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_a4': Can't find file.
+[2020.06.12-12.36.51:682][  0]LoadErrors: Failed to load /Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_a4.rock_group_small_a4 Referenced by StaticMeshComponent0
+[2020.06.12-12.36.51:682][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap' failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_a4': Can't find file.
+[2020.06.12-12.36.51:682][  0]LoadErrors: Failed to load /Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_a4.rock_group_small_a4 Referenced by StaticMeshComponent0
+[2020.06.12-12.36.51:682][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap' failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_b1': Can't find file.
+[2020.06.12-12.36.51:682][  0]LoadErrors: Failed to load /Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_b1.rock_group_small_b1 Referenced by StaticMeshComponent0
+[2020.06.12-12.36.51:683][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap' failed to load '/Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_b1': Can't find file.
+[2020.06.12-12.36.51:683][  0]LoadErrors: Failed to load /Game/ProceduralNaturePack/Meshes/rocks_small/rock_group_small_b1.rock_group_small_b1 Referenced by StaticMeshComponent0
+[2020.06.12-12.36.52:285][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.52:285][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_10
+[2020.06.12-12.36.52:285][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.52:285][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_10
+[2020.06.12-12.36.52:285][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.52:286][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_13
+[2020.06.12-12.36.52:286][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.52:286][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_13
+[2020.06.12-12.36.52:286][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.52:286][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_14
+[2020.06.12-12.36.52:286][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.52:286][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_14
+[2020.06.12-12.36.52:286][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.52:286][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_15
+[2020.06.12-12.36.52:287][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.52:287][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_15
+[2020.06.12-12.36.52:287][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.52:287][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_16
+[2020.06.12-12.36.52:287][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.52:287][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_16
+[2020.06.12-12.36.52:287][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Perlin_Noise_M': Can't find file.
+[2020.06.12-12.36.52:287][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M Referenced by MaterialExpressionTextureSample_19
+[2020.06.12-12.36.52:288][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Perlin_Noise_M': Can't find file.
+[2020.06.12-12.36.52:288][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Perlin_Noise_M.T_Perlin_Noise_M Referenced by MaterialExpressionTextureSample_19
+[2020.06.12-12.36.52:288][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.52:288][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_9
+[2020.06.12-12.36.52:288][  0]LogLinker: Warning: While loading 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/StarterContent/Materials/M_Water_Lake.uasset' failed to load '/Game/StarterContent/Textures/T_Water_N': Can't find file.
+[2020.06.12-12.36.52:288][  0]LoadErrors: Failed to load /Game/StarterContent/Textures/T_Water_N.T_Water_N Referenced by MaterialExpressionTextureSample_9
+[2020.06.12-12.36.53:867][  0]LogMaterial: Display: Missing cached shader map for material M_Water_Lake, compiling. 
+[2020.06.12-12.36.53:871][  0]LogMaterial: Warning: A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Content\StarterContent\Materials\M_Water_Lake.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2020.06.12-12.36.53:871][  0]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2020.06.12-12.36.54:050][  0]LogAIModule: Creating AISystem for world Environmentlevel
+[2020.06.12-12.36.54:199][  0]LogPhysics: Warning: Scale for /Game/Maps/Environmentlevel.Environmentlevel:PersistentLevel.SM_Cave_Rock_Large01_REDO8_105.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
+[2020.06.12-12.36.54:199][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.06.12-12.36.54:199][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
+[2020.06.12-12.36.54:199][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.06.12-12.36.54:199][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[1] invalid
+[2020.06.12-12.36.54:199][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.06.12-12.36.54:199][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[2] invalid
+[2020.06.12-12.36.54:199][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
+[2020.06.12-12.36.54:199][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[3] invalid
+[2020.06.12-12.36.54:365][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.06.12-12.36.54:456][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2020.06.12-12.36.54:457][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.06.12-12.36.54:459][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.765ms to complete.
+[2020.06.12-12.36.54:459][  0]LogFileHelpers: Loading map 'Environmentlevel' took 8.217
+[2020.06.12-12.36.54:825][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-12.36.54:835][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-12.36.54:843][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-12.36.54:850][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.06.12-12.36.54:894][  0]LogCollectionManager: Loaded 0 collections in 0.020598 seconds
+[2020.06.12-12.36.54:933][  0]LogFileCache: Scanning file cache for directory 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Collections/' took 0.00s
+[2020.06.12-12.36.54:933][  0]LogFileCache: Scanning file cache for directory 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Developers/Geoffrey/Collections/' took 0.00s
+[2020.06.12-12.36.54:933][  0]LogFileCache: Scanning file cache for directory 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Collections/' took 0.00s
+[2020.06.12-12.36.54:933][  0]LogContentBrowser: Native class hierarchy populated in 0.0115 seconds. Added 3032 classes and 726 folders.
+[2020.06.12-12.36.54:945][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.06.12-12.36.55:183][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.06.12-12.36.55:205][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 2 classes and 3 folders.
+[2020.06.12-12.36.55:661][  0]LogSlate: Took 0.000752 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.06.12-12.36.55:665][  0]LogSlate: Took 0.000763 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.06.12-12.36.55:671][  0]LogSlate: Took 0.000837 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.06.12-12.36.55:822][  0]LogRenderer: Reallocating scene render targets to support 1024x1024 Format 10 NumSamples 1 (Frame:1).
+[2020.06.12-12.36.57:653][  0]LogRenderer: Reallocating scene render targets to support 1800x1024 Format 10 NumSamples 1 (Frame:1).
+[2020.06.12-12.36.58:609][  0]LogSlate: Took 0.000911 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.06.12-12.36.58:739][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2020.06.12-12.36.58:739][  0]LogLoad: (Engine Initialization) Total time: 33.54 seconds
+[2020.06.12-12.36.58:739][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.06.12-12.36.58:902][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.06.12-12.36.59:329][  1]LogFMOD: Warning: e:\jk\workspace\2.0_UE4.24_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(549) - Starvation detected in WASAPI output buffer!
 
-[2020.06.06-09.27.16:375][  0]LogFMOD: Default sample rate = 48000
-[2020.06.06-09.27.16:375][  0]LogFMOD: System sample rate = 48000
-[2020.06.06-09.27.16:375][  0]LogFMOD: Matching system sample rate 48000
-[2020.06.06-09.27.16:481][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.06.06-09.27.16:485][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.06.06-09.27.16:701][  0]SourceControl: Source control is disabled
-[2020.06.06-09.27.19:182][  0]LogFMOD: FFMODStudioEditorModule startup
-[2020.06.06-09.27.19:304][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.06.06-09.27.19:319][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.06.06-09.27.19:319][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
-[2020.06.06-09.27.19:417][  0]LogOcInput: OculusInput pre-init called
-[2020.06.06-09.27.20:396][  0]LogEngine: Initializing Engine...
-[2020.06.06-09.27.20:788][  0]LogHMD: Failed to initialize OpenVR with code 108
-[2020.06.06-09.27.20:790][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.06.06-09.27.21:190][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.06.06-09.27.21:203][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.06.06-09.27.21:209][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
-[2020.06.06-09.27.21:209][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
-[2020.06.06-09.27.21:209][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
-[2020.06.06-09.27.21:209][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
-[2020.06.06-09.27.21:209][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
-[2020.06.06-09.27.21:209][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
-[2020.06.06-09.27.21:209][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
-[2020.06.06-09.27.21:209][  0]LogAudio: Display: AudioDevice MaxSources: 32
-[2020.06.06-09.27.21:210][  0]LogAudio: Display: Using built-in audio occlusion.
-[2020.06.06-09.27.21:210][  0]LogAudioMixer: Display: Initializing audio mixer.
-[2020.06.06-09.27.21:228][  0]LogAudioMixer: Display: Audio Device Output Speaker Info:
-[2020.06.06-09.27.21:228][  0]LogAudioMixer: Display: Name: Headset Earphone (Razer Kraken 7.1 V2)
-[2020.06.06-09.27.21:229][  0]LogAudioMixer: Display: Is Default: Yes
-[2020.06.06-09.27.21:229][  0]LogAudioMixer: Display: Sample Rate: 48000
-[2020.06.06-09.27.21:229][  0]LogAudioMixer: Display: Channel Count Used: 2
-[2020.06.06-09.27.21:229][  0]LogAudioMixer: Display: Device Channel Count: 2
-[2020.06.06-09.27.21:229][  0]LogAudioMixer: Display: Channel Order:
-[2020.06.06-09.27.21:229][  0]LogAudioMixer: Display: 0: FrontLeft
-[2020.06.06-09.27.21:229][  0]LogAudioMixer: Display: 1: FrontRight
-[2020.06.06-09.27.21:318][  0]LogAudioMixer: Display: Using Audio Device Headset Earphone (Razer Kraken 7.1 V2)
-[2020.06.06-09.27.21:325][  0]LogInit: FAudioDevice initialized.
-[2020.06.06-09.27.21:325][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.06.06-09.27.21:446][  0]LogDerivedDataCache: Saved boot cache 0.12s 115MB C:/Users/Geoffrey/AppData/Local/UnrealEngine/4.24/DerivedDataCache/Boot.ddc.
-[2020.06.06-09.27.21:452][  0]LogInit: Texture streaming: Enabled
-[2020.06.06-09.27.21:473][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.06.06-09.27.21:473][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.06.06-09.27.21:492][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.06.06-09.27.21:570][  0]LogInit: Transaction tracking system initialized
-[2020.06.06-09.27.21:587][  0]BlueprintLog: New page: Editor Load
-[2020.06.06-09.27.21:630][  0]LocalizationService: Localization service is disabled
-[2020.06.06-09.27.22:876][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.06.06-09.27.22:876][  0]LogCook: Display: Mobile HDR setting 1
-[2020.06.06-09.27.23:937][  0]LogFileCache: Scanning file cache for directory 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/' took 0.93s
-[2020.06.06-09.27.23:937][  0]Cmd: MAP LOAD FILE="A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Maps/Environmentlevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.06.06-09.27.23:938][  0]LightingResults: New page: Lighting Build
-[2020.06.06-09.27.23:940][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.06.06-09.27.23:940][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
-[2020.06.06-09.27.23:940][  0]MapCheck: New page: Map Check
-[2020.06.06-09.27.23:940][  0]LightingResults: New page: Lighting Build
-[2020.06.06-09.27.23:962][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
-[2020.06.06-09.27.30:671][  0]LogAIModule: Creating AISystem for world Environmentlevel
-[2020.06.06-09.27.30:794][  0]LogPhysics: Warning: Scale for /Game/Maps/Environmentlevel.Environmentlevel:PersistentLevel.SM_Cave_Rock_Large01_REDO8_105.StaticMeshComponent0 has a component set to zero, which will result in a bad body instance. Scale:X=0.500 Y=0.000 Z=0.500
-[2020.06.06-09.27.30:794][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
-[2020.06.06-09.27.30:794][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[0] invalid
-[2020.06.06-09.27.30:794][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
-[2020.06.06-09.27.30:794][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[1] invalid
-[2020.06.06-09.27.30:795][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
-[2020.06.06-09.27.30:795][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[2] invalid
-[2020.06.06-09.27.30:795][  0]LogPhysics: Warning: PopulatePhysXGeometryAndTransform(Convex): ConvexElem has invalid transform
-[2020.06.06-09.27.30:795][  0]LogPhysics: Warning: ForeachShape(Convex): ScaledElem[3] invalid
-[2020.06.06-09.27.30:920][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.06.06-09.27.30:996][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
-[2020.06.06-09.27.30:997][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.06.06-09.27.30:998][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.267ms to complete.
-[2020.06.06-09.27.30:998][  0]LogFileHelpers: Loading map 'Environmentlevel' took 7.061
-[2020.06.06-09.27.31:348][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.06-09.27.31:357][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.06-09.27.31:364][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.06-09.27.31:372][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.06.06-09.27.31:511][  0]LogCollectionManager: Loaded 0 collections in 0.117925 seconds
-[2020.06.06-09.27.31:551][  0]LogFileCache: Scanning file cache for directory 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Saved/Collections/' took 0.00s
-[2020.06.06-09.27.31:551][  0]LogFileCache: Scanning file cache for directory 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Developers/Geoffrey/Collections/' took 0.00s
-[2020.06.06-09.27.31:551][  0]LogFileCache: Scanning file cache for directory 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/Collections/' took 0.00s
-[2020.06.06-09.27.31:551][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 3032 classes and 726 folders.
-[2020.06.06-09.27.31:562][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2020.06.06-09.27.31:800][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2020.06.06-09.27.31:813][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 2 classes and 3 folders.
-[2020.06.06-09.27.32:473][  0]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.06.06-09.27.32:477][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.06.06-09.27.32:485][  0]LogSlate: Took 0.000706 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.06.06-09.27.32:639][  0]LogRenderer: Reallocating scene render targets to support 1800x600 Format 10 NumSamples 1 (Frame:1).
-[2020.06.06-09.27.34:104][  0]LogSlate: Took 0.000831 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.06.06-09.27.34:303][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2020.06.06-09.27.34:303][  0]LogLoad: (Engine Initialization) Total time: 33.91 seconds
-[2020.06.06-09.27.34:303][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.06.06-09.27.34:526][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.06.06-09.27.34:657][  1]LogFMOD: File has changed: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/Master.strings.bank
-[2020.06.06-09.27.34:994][  1]LogFMOD: Loading strings bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/Master.strings.bank
-[2020.06.06-09.27.34:996][  1]LogFMOD: Skipping asset: bus:/
-[2020.06.06-09.27.34:996][  1]LogFMOD: Skipping asset: bank:/Master.strings
-[2020.06.06-09.27.35:001][  1]LogFMOD: Default sample rate = 48000
-[2020.06.06-09.27.35:001][  1]LogFMOD: System sample rate = 48000
-[2020.06.06-09.27.35:001][  1]LogFMOD: Matching system sample rate 48000
-[2020.06.06-09.27.35:120][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/amb.bank
-[2020.06.06-09.27.35:120][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/fst.bank
-[2020.06.06-09.27.35:120][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/int.bank
-[2020.06.06-09.27.35:120][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/music.bank
-[2020.06.06-09.27.35:120][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/ui.bank
-[2020.06.06-09.27.35:120][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/vo.bank
-[2020.06.06-09.27.35:276][  1]LogFMOD: Default sample rate = 48000
-[2020.06.06-09.27.35:276][  1]LogFMOD: System sample rate = 48000
-[2020.06.06-09.27.35:276][  1]LogFMOD: Matching system sample rate 48000
-[2020.06.06-09.27.35:352][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/amb.bank
-[2020.06.06-09.27.35:352][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/fst.bank
-[2020.06.06-09.27.35:352][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/int.bank
-[2020.06.06-09.27.35:352][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/music.bank
-[2020.06.06-09.27.35:353][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/ui.bank
-[2020.06.06-09.27.35:353][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/vo.bank
-[2020.06.06-09.27.38:572][ 39]LogAssetRegistry: Asset discovery search completed in 29.5740 seconds
-[2020.06.06-09.27.38:581][ 39]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000011 seconds (updated 0 objects)
-[2020.06.06-09.27.40:583][ 75]LogFileCache: Retrieving MD5 hashes for directory 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/' took 6.27s
-[2020.06.06-09.27.41:292][144]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.24/Engine/Content: 'C:/Program Files/Epic Games/UE_4.24/Engine/Content' is outside repository
-[2020.06.06-09.27.41:799][144]LogFileHelpers: Warning: FilenameToLongPackageName failed to convert '../../../Engine/Plugins/FMODStudio/Content/AnimNotify_FMODPlayEvent.uasset'. Attempt result was '../../../Engine/Plugins/FMODStudio/Content/AnimNotify_FMODPlayEvent', but the path contains illegal characters '.'
-[2020.06.06-09.29.48:521][144]LogSlate: Window 'Submit Files' being destroyed
-[2020.06.06-09.30.07:703][144]LogD3D12RHI: Error: CommandList->Close() failed 
- at D:/Build/++UE4/Sync/Engine/Source/Runtime/D3D12RHI/Private/D3D12CommandList.cpp:133 
- with error E_OUTOFMEMORY
-[2020.06.06-09.30.13:267][144]LogConsoleResponse:     62 = 36864 KB (2D 1800x600 PF_DepthStencil 4xMSAA) EditorPrimitivesDepth
-[2020.06.06-09.30.13:267][144]LogConsoleResponse:     80 = 36864 KB (2D 1800x600 PF_DepthStencil 4xMSAA) SelectionOutline
-[2020.06.06-09.30.13:267][144]LogConsoleResponse:     36 = 32768 KB (2D 8192x2048 PF_ShadowDepth) WholeSceneShadowmap
-[2020.06.06-09.30.13:269][144]LogConsoleResponse:     83 = 24576 KB (2D 6144x2048 PF_ShadowDepth) WholeSceneShadowmap unused(143)
-[2020.06.06-09.30.13:269][144]LogConsoleResponse:     84 = 24576 KB (2D 6144x2048 PF_ShadowDepth) WholeSceneShadowmap unused(143)
-[2020.06.06-09.30.13:269][144]LogConsoleResponse:     85 = 24576 KB (2D 6144x2048 PF_ShadowDepth) WholeSceneShadowmap unused(143)
-[2020.06.06-09.30.13:269][144]LogConsoleResponse:     61 = 20480 KB (2D 1800x600 PF_B8G8R8A8 RT 4xMSAA) EditorPrimitivesColor
-[2020.06.06-09.30.13:269][144]LogConsoleResponse:     24 = 9024 KB (2D 1800x600 PF_DepthStencil VRam) SceneDepthZ VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:270][144]LogConsoleResponse:     44 = 9024 KB (2D 1800x600 PF_FloatRGBA RT UAV VRam) SceneColor VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:270][144]LogConsoleResponse:     33 = 9024 KB (2D 1800x600 PF_FloatRGBA RT UAV) LightAccumulation
-[2020.06.06-09.30.13:270][144]LogConsoleResponse:     50 = 9024 KB (2D 1800x600 PF_FloatRGBA RT UAV) ScreenSpaceReflections
-[2020.06.06-09.30.13:300][144]LogConsoleResponse:     63 = 9024 KB (2D 1800x600 PF_FloatRGBA RT VRam) SceneColor VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:300][144]LogConsoleResponse:     34 = 9024 KB (2D 1800x600 PF_FloatRGBA RT) SceneColorSubPixel
-[2020.06.06-09.30.13:300][144]LogConsoleResponse:     58 = 9024 KB (2D 1800x600 PF_FloatRGBA RT) SeparateTranslucency
-[2020.06.06-09.30.13:300][144]LogConsoleResponse:     64 = 9024 KB (2D 1800x600 PF_FloatRGBA UAV) TemporalAA
-[2020.06.06-09.30.13:304][144]LogConsoleResponse:     95 = 9024 KB (2D 1800x600 PF_FloatRGBA UAV) TemporalAA
-[2020.06.06-09.30.13:305][144]LogConsoleResponse:     37 = 8192 KB (2D 2048x2048 PF_ShadowDepth) ShadowDepthAtlas
-[2020.06.06-09.30.13:305][144]LogConsoleResponse:     25 = 4608 KB (2D 900x300 PF_DepthStencil) SmallDepthZ
-[2020.06.06-09.30.13:305][144]LogConsoleResponse:     38 = 4544 KB (2D 1800x600 PF_A2B10G10R10 RT) GBufferA
-[2020.06.06-09.30.13:305][144]LogConsoleResponse:     40 = 4544 KB (2D 1800x600 PF_B8G8R8A8 RT sRGB) GBufferC
-[2020.06.06-09.30.13:308][144]LogConsoleResponse:     39 = 4544 KB (2D 1800x600 PF_B8G8R8A8 RT VRam) GBufferB VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:308][144]LogConsoleResponse:     49 = 4544 KB (2D 1800x600 PF_B8G8R8A8 RT VRam) LightAttenuation VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:308][144]LogConsoleResponse:     81 = 4544 KB (2D 1800x600 PF_B8G8R8A8 RT VRam) SelectionOutlineColor VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:309][144]LogConsoleResponse:     79 = 4544 KB (2D 1800x600 PF_B8G8R8A8 RT VRam) Tonemap VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:309][144]LogConsoleResponse:     41 = 4544 KB (2D 1800x600 PF_B8G8R8A8 RT) GBufferD
-[2020.06.06-09.30.13:309][144]LogConsoleResponse:     42 = 4544 KB (2D 1800x600 PF_B8G8R8A8 RT) GBufferE
-[2020.06.06-09.30.13:309][144]LogConsoleResponse:     82 = 4544 KB (2D 1800x600 PF_B8G8R8A8 RT) HitProxy unused(107)
-[2020.06.06-09.30.13:309][144]LogConsoleResponse:     46 = 4544 KB (2D 1800x600 PF_G16R16 RT UAV) Velocity
-[2020.06.06-09.30.13:309][144]LogConsoleResponse:     35 = 2304 KB (2D 1800x300 PF_R32_UINT RT UAV) QuadOverdrawBuffer
-[2020.06.06-09.30.13:309][144]LogConsoleResponse:     47 = 2304 KB (2D 900x300 PF_FloatRGBA RT VRam) AmbientOcclusionSetup VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     27 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume0
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     29 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume1
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     31 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolume2
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     28 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir0
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     30 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir1
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     32 = 2048 KB (3D 64x64x64 PF_FloatRGBA RT UAV) TranslucentVolumeDir2
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     43 = 1408 KB (2D 1024x512 PF_R16F UAV VRam) HZBFurthest VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     26 = 1216 KB (2D 1800x600 PF_G8 RT UAV) ScreenSpaceAO
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     48 = 1152 KB (2D 900x300 PF_B8G8R8A8 RT VRam) AmbientOcclusion VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     78 = 1152 KB (2D 900x300 PF_FloatRGB RT VRam) BloomX VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     65 = 1152 KB (2D 900x300 PF_FloatRGB RT VRam) BloomY VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     87 = 1088 KB (Cube 128 PF_FloatRGBA RT) ReflectionColorScratchCubemap0
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     88 = 1088 KB (Cube 128 PF_FloatRGBA RT) ReflectionColorScratchCubemap1
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     57 = 512 KB (3D 256x128x2 PF_FloatRGBA RT) AtmosphereDeltaJ
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     56 = 512 KB (3D 256x128x2 PF_FloatRGBA RT) AtmosphereDeltaSM
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     55 = 512 KB (3D 256x128x2 PF_FloatRGBA RT) AtmosphereDeltaSR
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     54 = 512 KB (3D 256x128x2 PF_FloatRGBA RT) AtmosphereInscatter
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     77 = 320 KB (2D 450x150 PF_FloatRGB RT VRam) BloomX VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:     68 = 320 KB (2D 450x150 PF_FloatRGB RT VRam) BloomY VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:      3 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:      2 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
-[2020.06.06-09.30.13:351][144]LogConsoleResponse:      1 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:      4 = 256 KB (2D 256x256 PF_B8G8R8A8) HZBResultsCPU
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     76 = 128 KB (2D 225x75 PF_FloatRGB RT VRam) BloomX VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     69 = 128 KB (2D 225x75 PF_FloatRGB RT VRam) BloomY VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     51 = 128 KB (2D 256x64 PF_FloatRGBA RT) AtmosphereTransmittance
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     86 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUT unused(143) VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     60 = 128 KB (3D 32x32x32 PF_A2B10G10R10 RT VRam) CombineLUTs VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     89 = 128 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap0
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     90 = 128 KB (Cube 32 PF_FloatRGBA RT) DiffuseIrradianceScratchCubemap1
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     75 = 64 KB (2D 113x38 PF_FloatRGB RT VRam) BloomX VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     70 = 64 KB (2D 113x38 PF_FloatRGB RT VRam) BloomY VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     66 = 64 KB (2D 16x150 PF_FloatRGBA RT UAV VRam) Histogram VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     67 = 64 KB (2D 16x2 PF_A32B32G32R32F RT VRam) HistogramReduce VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     94 = 64 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     59 = 64 KB (2D 1x1 PF_A32B32G32R32F RT UAV) EyeAdaptation
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:      8 = 64 KB (2D 1x1 PF_B8G8R8A8 RT) BlackAlphaOneDummy
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:      6 = 64 KB (2D 1x1 PF_B8G8R8A8 RT) BlackDummy
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     10 = 64 KB (2D 1x1 PF_B8G8R8A8 RT) DefaultNormal8Bit
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:      9 = 64 KB (2D 1x1 PF_B8G8R8A8 RT) GreenDummy
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:      5 = 64 KB (2D 1x1 PF_B8G8R8A8 RT) WhiteDummy
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     13 = 64 KB (2D 1x1 PF_DepthStencil) DepthDummy
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     12 = 64 KB (2D 1x1 PF_FloatRGBA RT) MaxFP16Depth
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     15 = 64 KB (2D 1x1 PF_FloatRGBA RT) MidGreyDummy
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     92 = 64 KB (2D 1x1 PF_FloatRGBA RT) ReflectionBrightness unused(142)
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:      7 = 64 KB (2D 1x1 PF_R32_UINT RT) ZeroUIntDummy
-[2020.06.06-09.30.13:352][144]LogConsoleResponse:     14 = 64 KB (2D 1x1 PF_R8G8B8A8_UINT RT) StencilDummy
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     73 = 64 KB (2D 29x10 PF_FloatRGB RT VRam) BloomX VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     72 = 64 KB (2D 29x10 PF_FloatRGB RT VRam) BloomY VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     74 = 64 KB (2D 57x19 PF_FloatRGB RT VRam) BloomX VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     71 = 64 KB (2D 57x19 PF_FloatRGB RT VRam) BloomY VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     53 = 64 KB (2D 64x16 PF_FloatRGBA RT) AtmosphereDeltaE
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     52 = 64 KB (2D 64x16 PF_FloatRGBA RT) AtmosphereIrradiance
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     93 = 64 KB (2D 64x64 PF_R16F UAV VRam) HZBFurthest unused(143) VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     91 = 64 KB (2D 9x1 PF_FloatRGBA RT) SkySHIrradianceMap
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     17 = 64 KB (3D 1x1x1 PF_B8G8R8A8 RT) VolumetricBlackDummy
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     18 = 16 KB (3D 16x16x16 PF_B8G8R8A8) PerlinNoise3D
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     11 = 0 KB (2D 128x128 PF_B8G8R8A8) PerlinNoiseGradient
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     21 = 0 KB (2D 128x32 PF_G16R16) PreintegratedGF
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     16 = 0 KB (2D 32x16 PF_R16_UINT) SobolSampling
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     20 = 0 KB (2D 4x4 PF_R8G8) GTAORandomization
-[2020.06.06-09.30.13:353][144]LogConsoleResponse:     22 = 0 KB (2D 64x64 PF_FloatRGBA VRam) LTCMat VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:354][144]LogConsoleResponse:     23 = 0 KB (2D 64x64 PF_G16R16F VRam) LTCAmp VRamInKB(Start/Size):<NONE>
-[2020.06.06-09.30.13:354][144]LogConsoleResponse:     19 = 0 KB (2D 64x64 PF_R8G8) SSAORandomization
-[2020.06.06-09.30.13:354][144]LogConsoleResponse:     45 = 0 KB (2D 98x64 PF_A16B16G16R16) SSProfiles
-[2020.06.06-09.30.13:355][144]LogConsoleResponse: 
-[2020.06.06-09.30.13:355][144]LogConsoleResponse: Pool: 62/363 MB (referenced/allocated)
-[2020.06.06-09.30.13:355][144]Cmd: rhi.DumpMemory
-[2020.06.06-09.30.13:385][144]RHI resource memory (not tracked by our allocator)
-[2020.06.06-09.30.13:386][144]         2490368  -  Render target memory Cube - STAT_RenderTargetMemoryCube - STATGROUP_RHI - STATCAT_Advanced
-[2020.06.06-09.30.13:386][144]        18481152  -  Render target memory 3D - STAT_RenderTargetMemory3D - STATGROUP_RHI - STATCAT_Advanced
-[2020.06.06-09.30.13:386][144]        78315520  -  Texture memory 2D - STAT_TextureMemory2D - STATGROUP_RHI - STATCAT_Advanced
-[2020.06.06-09.30.13:386][144]        16842752  -  Texture memory Cube - STAT_TextureMemoryCube - STATGROUP_RHI - STATCAT_Advanced
-[2020.06.06-09.30.13:386][144]          589824  -  Texture memory 3D - STAT_TextureMemory3D - STATGROUP_RHI - STATCAT_Advanced
-[2020.06.06-09.30.13:386][144]         1220448  -  Uniform buffer memory - STAT_UniformBufferMemory - STATGROUP_RHI - STATCAT_Advanced
-[2020.06.06-09.30.13:386][144]        23750854  -  Index buffer memory - STAT_IndexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
-[2020.06.06-09.30.13:386][144]       590086144  -  Render target memory 2D - STAT_RenderTargetMemory2D - STATGROUP_RHI - STATCAT_Advanced
-[2020.06.06-09.30.13:386][144]         2639436  -  Structured buffer memory - STAT_StructuredBufferMemory - STATGROUP_RHI - STATCAT_Advanced
-[2020.06.06-09.30.13:386][144]        70971740  -  Vertex buffer memory - STAT_VertexBufferMemory - STATGROUP_RHI - STATCAT_Advanced
-[2020.06.06-09.30.13:386][144]768.078MB total
-[2020.06.06-09.30.13:386][144]LogWindows: FPlatformMisc::RequestExit(1)
-[2020.06.06-09.30.13:390][144]LogCore: Engine exit requested (reason: Win RequestExit)
-[2020.06.06-09.30.13:410][144]Log file closed, 06/06/20 11:30:13
+[2020.06.12-12.36.59:330][  1]LogFMOD: Warning: e:\jk\workspace\2.0_UE4.24_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(549) - Starvation detected in WASAPI output buffer!
+
+[2020.06.12-12.36.59:598][  1]LogFMOD: File has changed: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/Master.strings.bank
+[2020.06.12-12.37.00:605][  1]LogFMOD: Loading strings bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/Master.strings.bank
+[2020.06.12-12.37.00:607][  1]LogFMOD: Skipping asset: bus:/
+[2020.06.12-12.37.00:607][  1]LogFMOD: Skipping asset: bank:/Master.strings
+[2020.06.12-12.37.00:663][  1]LogFMOD: Default sample rate = 48000
+[2020.06.12-12.37.00:663][  1]LogFMOD: System sample rate = 48000
+[2020.06.12-12.37.00:663][  1]LogFMOD: Matching system sample rate 48000
+[2020.06.12-12.37.00:898][  1]LogFMOD: Warning: e:\jk\workspace\2.0_UE4.24_Win64\core_api\platforms\win\src\fmod_output_wasapi.cpp(549) - Starvation detected in WASAPI output buffer!
+
+[2020.06.12-12.37.00:898][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/amb.bank
+[2020.06.12-12.37.00:898][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/fst.bank
+[2020.06.12-12.37.00:898][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/int.bank
+[2020.06.12-12.37.00:898][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/music.bank
+[2020.06.12-12.37.00:898][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/ui.bank
+[2020.06.12-12.37.00:898][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/vo.bank
+[2020.06.12-12.37.01:036][  1]LogFMOD: Default sample rate = 48000
+[2020.06.12-12.37.01:036][  1]LogFMOD: System sample rate = 48000
+[2020.06.12-12.37.01:037][  1]LogFMOD: Matching system sample rate 48000
+[2020.06.12-12.37.01:085][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/amb.bank
+[2020.06.12-12.37.01:085][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/fst.bank
+[2020.06.12-12.37.01:085][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/int.bank
+[2020.06.12-12.37.01:085][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/music.bank
+[2020.06.12-12.37.01:085][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/ui.bank
+[2020.06.12-12.37.01:085][  1]LogFMOD: Loading bank: A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/FMOD/Desktop/vo.bank
+[2020.06.12-12.37.02:844][ 15]LogSlate: Window 'Message Log' being destroyed
+[2020.06.12-12.37.04:078][ 32]LogAssetRegistry: Asset discovery search completed in 29.0963 seconds
+[2020.06.12-12.37.04:088][ 32]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000533 seconds (updated 0 objects)
+[2020.06.12-12.37.06:359][ 86]LogFileCache: Retrieving MD5 hashes for directory 'A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Content/' took 7.60s
