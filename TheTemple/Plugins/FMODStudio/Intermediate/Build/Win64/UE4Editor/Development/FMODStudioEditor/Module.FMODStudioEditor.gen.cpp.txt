@@ -5,35 +5,35 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UOb
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudioEditor/Classes/FMODAmbientSoundActorFactory.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\UnrealEd\Classes\ActorFactories/ActorFactory.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd\ActorFactory.generated.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\intermediate\build\win64\ue4editor\inc\fmodstudioeditor\FMODAmbientSoundActorFactory.generated.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudioEditor\FMODAmbientSoundActorFactory.generated.h
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Intermediate/Build/Win64/UE4Editor/Inc/FMODStudioEditor/FMODChannelEditors.gen.cpp
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudioEditor/Private/Sequencer/FMODChannelEditors.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneKeyStruct.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneKeyStructHelper.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Channels/MovieSceneChannelTraits.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\channels\MovieSceneChannelEditorData.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationTemplateInstance.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSequenceTemplateStore.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneRootOverridePath.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneKeyStructHelper.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneChannelTraits.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels\MovieSceneChannelEditorData.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieSceneEvaluationTemplateInstance.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieSceneSequenceTemplateStore.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieSceneRootOverridePath.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTemplateInstance.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Channels/MovieSceneChannelHandle.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneChannelHandle.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneKeyStruct.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\Sequencer\Public\SequencerChannelTraits.h
-c:\program files\epic games\ue_4.24\engine\source\editor\sequencer\public\ISequencerChannelInterface.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\Sequencer\Public\ISequencerChannelInterface.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneChannelProxy.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneChannelEditorDataEntry.h
-c:\program files\epic games\ue_4.24\engine\source\editor\sequencer\public\KeyDrawParams.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\Sequencer\Public\KeyDrawParams.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneChannelData.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneChannelData.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneClipboard.h
-c:\program files\epic games\ue_4.24\engine\source\editor\sequencer\public\SequencerClipboardReconciler.h
-c:\program files\epic games\ue_4.24\engine\source\editor\sequencer\public\SequencerKeyStructGenerator.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\Sequencer\Public\SequencerClipboardReconciler.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Editor\Sequencer\Public\SequencerKeyStructGenerator.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Sequencer\SequencerKeyStructGenerator.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneByteChannel.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\channels\MovieSceneChannel.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels\MovieSceneChannel.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneChannel.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneByteChannel.generated.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer/FMODEventControlSection.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEventControlSection.generated.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\intermediate\build\win64\ue4editor\inc\fmodstudioeditor\FMODChannelEditors.generated.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudioEditor\FMODChannelEditors.generated.h
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Intermediate/Build/Win64/UE4Editor/Inc/FMODStudioEditor/FMODStudioEditor.init.gen.cpp
