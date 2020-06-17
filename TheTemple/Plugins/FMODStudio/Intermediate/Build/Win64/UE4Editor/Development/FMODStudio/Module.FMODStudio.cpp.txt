@@ -1,6 +1,6 @@
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/FMODAmbientSound.cpp
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAmbientSound.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\classes\FMODAudioComponent.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAudioComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundAttenuation.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Attenuation.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Curves/CurveFloat.h
@@ -19,8 +19,8 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CurveFloat.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Attenuation.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\IAudioExtensionPlugin.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\AudioDefines.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\IAmbisonicsMixer.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AudioDefines.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\IAmbisonicsMixer.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundEffectBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AudioPlatformConfiguration\Public\AudioResampler.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/ThreadSafeBool.h
@@ -31,17 +31,17 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Modules/ModuleInterface.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Modules/ModuleManager.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Modules/Boilerplate/ModuleBoilerplate.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\CanvasTypes.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\HitProxies.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\BatchedElements.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\CanvasTypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\HitProxies.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\BatchedElements.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHI.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/StaticArray.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rhi\public\MultiGPU.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rhi\public\RHIResources.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rhi\public\DynamicRHI.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rhi\public\RHIContext.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rhi\public\RHIUtilities.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rhi\public\RHICommandList.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\MultiGPU.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHIResources.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\DynamicRHI.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHIContext.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHIUtilities.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHICommandList.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/App.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/CommandLine.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/Timecode.h
@@ -53,23 +53,23 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\ProfilingD
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Async/Future.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\ProfilingDebugging/CsvProfilerTrace.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace/Trace.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\tracelog\public\trace\Detail/Trace.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\tracelog\public\trace\Detail/Field.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\tracelog\public\trace\Detail/EventDef.inl
-c:\program files\epic games\ue_4.24\engine\source\runtime\tracelog\public\trace\detail\EventDef.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\tracelog\public\trace\detail\Writer.inl
-c:\program files\epic games\ue_4.24\engine\source\runtime\tracelog\public\trace\detail\Atomic.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rhi\public\RHICommandList.inl
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace\Detail/Trace.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace\Detail/Field.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace\Detail/EventDef.inl
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace\Detail\EventDef.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace\Detail\Writer.inl
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\TraceLog\Public\Trace\Detail\Atomic.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHICommandList.inl
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\RenderResource.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rendercore\public\RenderCore.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\SceneView.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\RenderCore.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SceneView.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\UniformBuffer.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rendercore\public\ShaderParameterMacros.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rendercore\public\ShaderParameterMetadata.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rendercore\public\RenderingThread.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ShaderParameterMacros.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ShaderParameterMetadata.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\RenderingThread.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/World.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\CollisionQueryParams.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\WorldCollision.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\CollisionQueryParams.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\WorldCollision.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\PhysicsCore\Public\CollisionShape.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Pawn.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h
@@ -80,7 +80,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Compone
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ChildActorComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\RenderCommandFence.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/ITransaction.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\core\public\misc\Change.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc\Change.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Level.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Templates/ScopedCallback.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/MaterialMerging.h
@@ -93,7 +93,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/CoreS
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationTypes.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavAgentInterface.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Pawn.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\EngineDefines.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineDefines.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Blueprint.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/BlueprintCore.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlueprintCore.generated.h
@@ -102,35 +102,35 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\Blueprint/BlueprintSupport.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Blueprint.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/PendingNetGame.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\classes\engine\NetworkDelegates.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine\NetworkDelegates.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PendingNetGame.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/LatentActionManager.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\LatentActionManager.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/GameInstance.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Subsystems/GameInstanceSubsystem.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Subsystems/Subsystem.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Subsystems/GameInstanceSubsystem.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Subsystems/Subsystem.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Subsystem.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameInstanceSubsystem.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Subsystems/SubsystemCollection.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Subsystems/SubsystemCollection.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/GCObject.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameInstance.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Physics/PhysicsInterfaceDeclares.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfaceDeclares.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\PhysicsCore\Public\PhysicsInterfaceDeclaresCore.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Particles/WorldPSCPool.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\WorldPSCPool.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/SortedMap.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Subsystems/WorldSubsystem.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Subsystems/WorldSubsystem.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\WorldSubsystem.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\World.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\SceneTypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SceneTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SceneTypes.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\ShowFlags.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\ShowFlagsValues.inl
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\ShowFlagsValues.inl
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\ShowFlagsValues.inl
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\ShowFlagsValues.inl
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\ShowFlagsValues.inl
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\ConvexVolume.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ShowFlags.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ShowFlagsValues.inl
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ConvexVolume.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/GameViewportClient.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Input/PopupMethodReply.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Input/ReplyBase.h
@@ -174,7 +174,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Input
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Input/NavigationReply.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\NavigationReply.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\SlateGlobals.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\slatecore\public\Debugging/SlateDebugging.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Debugging/SlateDebugging.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateDebugging.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\RenderingCommon.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\Clipping.generated.h
@@ -201,10 +201,10 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Rende
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Styling/SlateBrush.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore\SlateBrush.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Textures/SlateTextureData.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\slatecore\public\rendering\DrawElementPayloads.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\slatecore\public\rendering\SlateRenderBatch.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\slatecore\public\rendering\ElementBatcher.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\slatecore\public\widgets\InvalidateWidgetReason.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Rendering\DrawElementPayloads.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Rendering\SlateRenderBatch.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Rendering\ElementBatcher.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Widgets\InvalidateWidgetReason.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Widgets/Accessibility/SlateWidgetAccessibleTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Widgets/SOverlay.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Widgets/DeclarativeSyntaxSupport.h
@@ -213,37 +213,37 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\SlotB
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Layout/Children.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SlateCore\Public\Widgets/SPanel.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ScriptViewportClient.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\UnrealClient.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\UnrealClient.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ScriptViewportClient.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/ViewportSplitScreen.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/TitleSafeZone.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/GameViewportDelegates.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/DebugDisplayProperty.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DebugDisplayProperty.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\StereoRendering.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\StereoRendering.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameViewportClient.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\SceneInterface.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\SceneUtils.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SceneInterface.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SceneUtils.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ProfilingDebugging/RealtimeGPUProfiler.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Math/SHMath.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\FinalPostProcessSettings.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\FinalPostProcessSettings.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Scene.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/BlendableInterface.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BlendableInterface.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Scene.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\BlendableManager.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\BlendableManager.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Renderer\Public\GlobalDistanceFieldParameters.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ShaderParameters.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\RenderUtils.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rendercore\public\PackedNormal.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\PackedNormal.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\RHIStaticStates.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/ScopedEvent.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\DebugViewModeHelpers.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DebugViewModeHelpers.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\RendererInterface.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rendercore\public\VirtualTexturing.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\VirtualTexturing.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\StaticBoundShaderState.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RHI\Public\PipelineStateCache.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\StaticMeshResources.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\StaticMeshResources.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectIterator.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectHash.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Materials/MaterialInterface.h
@@ -258,29 +258,29 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internatio
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Internationalization/InternationalizationMetadata.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/PackageFileSummary.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/EngineVersion.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\assetregistry\public\AssetDataTagMap.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AssetRegistry\Public\AssetDataTagMap.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\AssetData.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialLayersFunctions.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\MaterialSceneTextureId.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\MaterialSceneTextureId.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialSceneTextureId.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialInterface.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/DynamicRHIResourceArray.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Containers/ResourceArray.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\RawIndexBuffer.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Components.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\RawIndexBuffer.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Components.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\VertexFactory.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rendercore\public\ShaderCore.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ShaderCore.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/Paths.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rendercore\public\Shader.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\rendercore\public\ShaderPermutation.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\Shader.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\ShaderPermutation.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/RenderingObjectVersion.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/DebugSerializationFlags.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Components.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\LocalVertexFactory.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\PrimitiveViewRelevance.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\PrimitiveSceneProxy.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\PrimitiveUniformShaderParameters.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\LightmapUniformShaderParameters.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\LocalVertexFactory.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PrimitiveViewRelevance.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PrimitiveSceneProxy.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PrimitiveUniformShaderParameters.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\LightmapUniformShaderParameters.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/MeshMerging.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/InstancedStaticMeshComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/TextureStreamingTypes.h
@@ -289,58 +289,58 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Compone
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/MeshComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/PrimitiveComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/BodyInstance.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\PhysxUserData.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Physics/PhysicsInterfaceCore.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PhysxUserData.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfaceCore.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\PhysicsCore\Public\PhysicsCore.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Physics/PhysicsInterfacePhysX.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\EngineGlobals.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics/PhysicsInterfacePhysX.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\EngineGlobals.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/ConstraintTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ConstraintTypes.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\physics\PhysicsInterfaceTypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics\PhysicsInterfaceTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\PhysicsEngine/BodySetupEnums.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BodySetupEnums.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\PhysicsCore\Public\PhysicsInterfaceTypesCore.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos/CollisionFilterData.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\experimental\chaos\public\chaos\ChaosArchive.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\experimental\chaos\public\chaos\Serializable.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\ChaosArchive.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Experimental\Chaos\Public\Chaos\Serializable.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/DestructionObjectVersion.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\physics\GenericPhysicsInterface.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Physics/PhysScene_PhysX.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\PhysicsPublic.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\DynamicMeshBuilder.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\SceneManagement.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics\GenericPhysicsInterface.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics/PhysScene_PhysX.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PhysicsPublic.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\DynamicMeshBuilder.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SceneManagement.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/TextureLightProfile.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Texture2D.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Texture.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\Serialization/BulkData.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Async/AsyncFileHandle.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformFile.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\coreuobject\public\serialization\BulkData2.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\Serialization\BulkData2.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/TextureDefines.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureDefines.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\MaterialShared.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\StaticParameterSet.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\MaterialShared.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\StaticParameterSet.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/FortniteMainBranchObjectVersion.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/ReleaseObjectVersion.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticParameterSet.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\TextureResource.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\TextureResource.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/StreamableRenderAsset.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StreamableRenderAsset.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Texture.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\RenderAssetUpdate.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\RenderAssetUpdate.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Texture2D.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\TextureLightProfile.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\MeshBatch.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\VT/RuntimeVirtualTextureEnum.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\MeshBatch.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\VT/RuntimeVirtualTextureEnum.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\RuntimeVirtualTextureEnum.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\RenderCore\Public\DynamicBufferAllocator.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Rendering/SkyAtmosphereCommonData.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Rendering/SkyAtmosphereCommonData.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\PhysicsCore\Public\PhysicsPublicCore.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Physics/Experimental/PhysScene_ImmediatePhysX.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Physics/Experimental/PhysicsInterfaceImmediatePhysX.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics/Experimental/PhysScene_ImmediatePhysX.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Physics/Experimental/PhysicsInterfaceImmediatePhysX.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BodyInstance.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavRelevantInterface.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\AI/NavigationModifier.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AI/NavigationModifier.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/Navigation/NavLinkDefinition.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavLinkDefinition.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavRelevantInterface.generated.h
@@ -349,13 +349,13 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\StaticMeshComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\InstancedStaticMeshComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MeshMerging.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Rendering/ColorVertexBuffer.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Rendering/StaticMeshVertexBuffer.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\StaticMeshVertexData.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Rendering/StaticMeshVertexDataInterface.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Rendering/PositionVertexBuffer.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\WeightedRandomSampler.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\PerPlatformProperties.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Rendering/ColorVertexBuffer.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Rendering/StaticMeshVertexBuffer.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\StaticMeshVertexData.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Rendering/StaticMeshVertexDataInterface.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Rendering/PositionVertexBuffer.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\WeightedRandomSampler.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\PerPlatformProperties.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Algo/Find.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Algo/Impl/RangePointerType.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PerPlatformProperties.generated.h
@@ -363,10 +363,10 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\IAudioExtensionPlugin.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundAttenuation.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AudioDevice.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Audio.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Audio.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundClass.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\EdGraph/EdGraph.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\BlueprintUtilities.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\BlueprintUtilities.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EdGraph.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundClass.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundEffectSource.h
@@ -375,14 +375,14 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/S
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundSubmixSend.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundSourceBusSend.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundSourceBusSend.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\AudioDeviceManager.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Audio/AudioDebug.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\AudioThread.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AudioDeviceManager.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Audio/AudioDebug.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AudioThread.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/Runnable.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/AudioComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundWave.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundBase.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\classes\sound\SoundConcurrency.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound\SoundConcurrency.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundConcurrency.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundBase.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundGroups.h
@@ -391,7 +391,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AudioMixerCore\Public\
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/ConfigCacheIni.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AudioPlatformConfiguration\Public\AudioCompressionSettings.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioPlatformConfiguration\AudioCompressionSettings.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\ContentStreaming.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ContentStreaming.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundWave.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AudioComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SignalProcessing\Public\DSP/SpectrumAnalyzer.h
@@ -401,10 +401,10 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SignalProcessing\Publi
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SignalProcessing\Public\SampleBuffer.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/Engine.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/BufferedOutputDevice.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Subsystems/EngineSubsystem.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Subsystems/EngineSubsystem.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\EngineSubsystem.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\Engine.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\AudioDynamicParameter.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AudioDynamicParameter.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/AudioSettings.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine/DeveloperSettings.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DeveloperSettings.generated.h
@@ -421,13 +421,13 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/S
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Sound/SoundWaveProcedural.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundWaveProcedural.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SoundSourceBus.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\AudioVirtualLoop.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\ActiveSound.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\AudioVirtualLoop.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ActiveSound.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AudioMixer\Public\DSP/VolumeFader.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AudioMixerCore\Public\AudioMixer.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\audiomixercore\public\AudioMixerLog.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AudioMixerCore\Public\AudioMixerLog.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/SingleThreadRunnable.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\audiomixercore\public\AudioMixerNullDevice.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AudioMixerCore\Public\AudioMixerNullDevice.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/RunnableThread.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/PlatformAffinity.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformAffinity.h
@@ -435,19 +435,19 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\SignalProcessing\Publi
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMODStudioModule.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMODUtils.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio.hpp
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio_common.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_common.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_codec.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_dsp_effects.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_output.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod_studio.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\public\fmod\fmod.hpp
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio_common.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_common.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_codec.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_dsp.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_dsp_effects.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_output.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_studio.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod.hpp
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODAudioComponent.generated.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODAmbientSound.generated.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODEvent.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\classes\FMODAsset.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODAsset.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODAsset.generated.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEvent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Logging/MessageLog.h
@@ -465,7 +465,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODBlueprintStatics.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/SkeletalMeshComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SkeletalMeshTypes.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\ComponentReregisterContext.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\ComponentReregisterContext.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\AI/NavigationSystemBase.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\NavigationSystemBase.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Interfaces/Interface_CollisionDataProvider.h
@@ -478,19 +478,19 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\GPUSkinP
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/PreviewAssetAttachComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PreviewAssetAttachComponent.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\BoneContainer.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\public\Animation/AnimTypes.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Animation/AnimTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/AnimLinkableElement.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimLinkableElement.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Animation/AnimEnums.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimEnums.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\AnimTypes.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BoneContainer.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\classes\engine\SkeletalMeshSampling.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine\SkeletalMeshSampling.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMeshSampling.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\classes\engine\SkeletalMeshLODSettings.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine\SkeletalMeshLODSettings.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\SkeletalMeshReductionSettings.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\SkeletalMeshReductionSettings.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\engine\classes\engine\DataAsset.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Engine\DataAsset.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AssetRegistry\Public\AssetBundleData.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\AssetBundleData.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DataAsset.generated.h
@@ -524,10 +524,10 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\Animatio
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\PoseSnapshot.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothingSystemRuntimeTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothingSimulationInterface.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\clothingsystemruntimeinterface\public\ClothingSimulationContext.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\clothingsystemruntimeinterface\public\ClothingSimulation.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\clothingsystemruntimeinterface\public\ClothCollisionData.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\clothingsystemruntimeinterface\public\ClothCollisionPrim.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothingSimulationContext.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothingSimulation.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothCollisionData.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothCollisionPrim.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface\ClothCollisionPrim.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface\ClothCollisionData.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public\ClothingSimulationFactory.h
@@ -565,7 +565,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/FMODAsset.cpp
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/FMODAssetTable.cpp
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\private\FMODAssetTable.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Private\FMODAssetTable.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshot.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODSnapshot.generated.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSnapshotReverb.h
@@ -580,21 +580,21 @@ A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugin
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODVCA.generated.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Classes\FMODSettings.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODSettings.generated.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\private\FMODFileCallbacks.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Private\FMODFileCallbacks.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\HAL/FileManager.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistryModule.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\Misc/AssetRegistryInterface.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\assetregistry\public\IAssetRegistry.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\assetregistry\public\ARFilter.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AssetRegistry\Public\IAssetRegistry.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\AssetRegistry\Public\ARFilter.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\ARFilter.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\IAssetRegistry.generated.h
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/FMODAudioComponent.cpp
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\private\FMODListener.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Private\FMODListener.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\Components/BillboardComponent.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\BillboardComponent.generated.h
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/FMODBank.cpp
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/FMODBankUpdateNotifier.cpp
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\private\FMODBankUpdateNotifier.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Private\FMODBankUpdateNotifier.h
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/FMODBlueprintStatics.cpp
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Public\FMOD\fmod_errors.h
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/FMODBus.cpp
@@ -610,14 +610,14 @@ A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugin
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Async/Async.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\projects\public\ModuleDescriptor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\ModuleDescriptor.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\Serialization/JsonWriter.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\Policies/PrettyJsonPrintPolicy.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Json\Public\Policies/JsonPrintPolicy.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\projects\public\CustomBuildSteps.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\projects\public\LocalizationDescriptor.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\projects\public\PluginReferenceDescriptor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\CustomBuildSteps.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\LocalizationDescriptor.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Projects\Public\PluginReferenceDescriptor.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/CoreDelegates.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/AES.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Classes\GameFramework/PlayerController.h
@@ -649,53 +649,53 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime/Media/Public/IMediaClo
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime/Media/Public/IMediaClockSink.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime/Media/Public/IMediaModule.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Engine\Public\TimerManager.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\private\FMODPlatformLoadDll_Generic.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Private\FMODPlatformLoadDll_Generic.h
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/FMODVCA.cpp
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/Sequencer/FMODEventControlSection.cpp
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\private\sequencer\FMODEventControlSection.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSection.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneClipboard.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneTrack.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieSceneTrackInstance.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneAnimTypeID.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSignedObject.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneTrack.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\IMovieSceneTrackInstance.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieSceneAnimTypeID.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneSignedObject.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSignedObject.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSection.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneFwd.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSequenceID.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneSection.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneFwd.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneSequenceID.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequenceID.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\KeyParams.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieScene.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSpawnable.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\KeyParams.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieScene.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneSpawnable.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSpawnable.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneBinding.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneBinding.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBinding.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieScenePossessable.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieScenePossessable.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScenePossessable.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneObjectBindingID.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneObjectBindingID.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneObjectBindingID.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneFrameMigration.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneFrameMigration.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneFrameMigration.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneTimeController.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneTimeController.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieScene.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/Blending/MovieSceneBlendType.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/Blending/MovieSceneBlendType.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneBlendType.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Generators/MovieSceneEasingFunction.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Generators/MovieSceneEasingFunction.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEasingFunction.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSection.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\Misc/InlineValue.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Compilation/MovieSceneSegmentCompiler.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneSegment.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Compilation/MovieSceneSegmentCompiler.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieSceneSegment.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\Core\Public\UObject/SequencerObjectVersion.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSegment.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneTrack.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneByteChannel.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\channels\MovieSceneChannel.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels\MovieSceneChannel.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneChannel.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\channels\MovieSceneChannelData.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels\MovieSceneChannelData.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneChannelData.generated.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\channels\MovieSceneChannelTraits.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\channels\MovieSceneChannelEditorData.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels\MovieSceneChannelTraits.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels\MovieSceneChannelEditorData.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneCommonHelpers.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\CoreUObject\Public\UObject/ObjectKey.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieSceneEvaluationTemplateInstance.h
@@ -728,15 +728,15 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Eval
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/Blending/MovieSceneBlendingActuatorID.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/Blending/MovieSceneBlendingActuator.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\IMovieScenePlayer.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieScenePreAnimatedState.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneSpawnRegister.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\IMovieSceneObjectSpawner.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/MovieSceneEvaluationState.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\Evaluation/IMovieSceneMotionVectorSimulation.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieScenePreAnimatedState.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneSpawnRegister.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\IMovieSceneObjectSpawner.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieSceneEvaluationState.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/IMovieSceneMotionVectorSimulation.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/Blending/BlendableTokenStack.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/Blending/MovieSceneInitialValueStore.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/Blending/MovieSceneAccumulatedBlendState.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\evaluation\blending\MovieSceneBlendingAccumulator.inl
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation\Blending\MovieSceneBlendingAccumulator.inl
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Compilation/MovieSceneTemplateInterrogation.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvalTemplate.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Evaluation/MovieSceneTrackImplementation.h
@@ -752,7 +752,7 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Eval
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneEvaluationTemplateInstance.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneByteChannel.generated.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEventControlSection.generated.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\private\sequencer\FMODEventControlSectionTemplate.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlSectionTemplate.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEventControlSectionTemplate.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneChannelProxy.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneChannelEditorDataEntry.h
@@ -762,19 +762,19 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Eval
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneSequence.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneSequence.generated.h
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/Sequencer/FMODEventControlTrack.cpp
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\private\sequencer\FMODEventControlTrack.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventControlTrack.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneNameableTrack.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneNameableTrack.generated.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEventControlTrack.generated.h
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/Sequencer/FMODEventParameterSectionTemplate.cpp
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\private\sequencer\FMODEventParameterSectionTemplate.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterSectionTemplate.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieSceneTracks\Public\Evaluation/MovieSceneParameterTemplate.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieSceneTracks\Public\Sections/MovieSceneParameterSection.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\Channels/MovieSceneFloatChannel.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneFloatChannel.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieSceneTracks\Public\Sections/MovieScene3DTransformSection.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneKeyStruct.h
-c:\program files\epic games\ue_4.24\engine\source\runtime\moviescene\public\MovieSceneKeyStructHelper.h
+C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\MovieSceneKeyStructHelper.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene\MovieSceneKeyStruct.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Source\Runtime\MovieScene\Public\TransformData.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks\MovieScene3DTransformSection.generated.h
@@ -812,6 +812,6 @@ C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\In
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\MaterialInstanceDynamic.generated.h
 C:\Program Files\Epic Games\UE_4.24\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks\MovieSceneParameterTemplate.generated.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEventParameterSectionTemplate.generated.h
-a:\users\geoffrey\documents\projectvrij\temple-of-the-ice-isles\thetemple\plugins\fmodstudio\source\fmodstudio\private\sequencer\FMODEventParameterTrack.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Source\FMODStudio\Private\Sequencer\FMODEventParameterTrack.h
 A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Plugins\FMODStudio\Intermediate\Build\Win64\UE4Editor\Inc\FMODStudio\FMODEventParameterTrack.generated.h
 A:/Users/Geoffrey/Documents/ProjectVrij/Temple-of-the-Ice-Isles/TheTemple/Plugins/FMODStudio/Source/FMODStudio/Private/Sequencer/FMODEventParameterTrack.cpp
