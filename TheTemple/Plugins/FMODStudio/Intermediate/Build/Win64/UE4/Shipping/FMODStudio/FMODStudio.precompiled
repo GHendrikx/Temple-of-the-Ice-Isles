@@ -1,7 +1,0 @@
-{
-	"OutputFiles": [
-		"PCH.FMODStudio.h.obj",
-		"Module.FMODStudio.cpp.obj",
-		"Module.FMODStudio.gen.cpp.obj"
-	]
-}
