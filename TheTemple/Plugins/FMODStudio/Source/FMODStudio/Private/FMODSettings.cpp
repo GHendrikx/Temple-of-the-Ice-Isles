@@ -32,7 +32,6 @@ UFMODSettings::UFMODSettings(const FObjectInitializer &ObjectInitializer)
     EditorLiveUpdatePort = 9265;
     bMatchHardwareSampleRate = true;
     bLockAllBuses = false;
-    bEnableMemoryTracking = false;
 }
 
 FString UFMODSettings::GetFullBankPath() const

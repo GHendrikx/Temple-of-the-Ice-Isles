@@ -561,12 +561,6 @@ void FFMODStudioModule::CreateStudioSystem(EFMODSystemContext::Type Type)
         UE_LOG(LogFMOD, Verbose, TEXT("Enabling live update"));
         StudioInitFlags |= FMOD_STUDIO_INIT_LIVEUPDATE;
     }
-
-    if (Settings.bEnableMemoryTracking && Type == EFMODSystemContext::Runtime)
-    {
-        StudioInitFlags |= FMOD_STUDIO_INIT_MEMORY_TRACKING;
-    }
-
 #endif
     if (Type == EFMODSystemContext::Auditioning || Type == EFMODSystemContext::Editor)
     {
@@ -1199,7 +1193,10 @@ void FFMODStudioModule::ShutdownModule()
     DestroyStudioSystem(EFMODSystemContext::Runtime);
     DestroyStudioSystem(EFMODSystemContext::Editor);
 
-    ReleaseFMODFileSystem();
+    if (StudioLibHandle && LowLevelLibHandle)
+    {
+        ReleaseFMODFileSystem();
+    }
 
     if (MemPool)
         FMemory::Free(MemPool);

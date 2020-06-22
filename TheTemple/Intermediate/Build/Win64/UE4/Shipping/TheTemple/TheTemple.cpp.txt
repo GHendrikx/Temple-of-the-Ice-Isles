@@ -1,0 +1,2 @@
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Intermediate\Build\Win64\UE4\Shipping\TheTemple\Definitions.TheTemple.h
+A:\Users\Geoffrey\Documents\ProjectVrij\Temple-of-the-Ice-Isles\TheTemple\Source\TheTemple\TheTemple.h

@@ -29,7 +29,7 @@ void EmptyLinkFunctionForGeneratedCodeFMODStudio_init() {}
 				SingletonFuncArray,
 				UE_ARRAY_COUNT(SingletonFuncArray),
 				PKG_CompiledIn | 0x00000000,
-				0x66E6350C,
+				0xE13C4C51,
 				0x62E2FFD3,
 				METADATA_PARAMS(nullptr, 0)
 			};

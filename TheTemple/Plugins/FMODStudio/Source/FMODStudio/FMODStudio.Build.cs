@@ -13,8 +13,8 @@ namespace UnrealBuildTool.Rules
         {
             PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
             PrivatePCHHeaderFile = "Private/FMODStudioPrivatePCH.h";
-            
-            bFasterWithoutUnity = true;
+
+            bUseUnity = false;
 
             PublicIncludePaths.Add(Path.Combine(ModuleDirectory, "Public/FMOD"));
 
@@ -131,12 +131,8 @@ namespace UnrealBuildTool.Rules
             }
             else if (Target.Platform == UnrealTargetPlatform.Android)
             {
-                // Don't use an explicit path with the .so, let the architecture dirs be filtered by UBT
-                PublicLibraryPaths.Add(System.IO.Path.Combine(BasePath, "armeabi-v7a"));
-                PublicLibraryPaths.Add(System.IO.Path.Combine(BasePath, "arm64-v8a"));
-                PublicLibraryPaths.Add(System.IO.Path.Combine(BasePath, "x86"));
                 bAddRuntimeDependencies = false; // Don't use this system
-                bShortLinkNames = true; // strip off lib and .so
+                bLinkFromBinaries = true;
                 linkExtension = dllExtension = ".so";
                 libPrefix = "lib";
             }
@@ -175,8 +171,6 @@ namespace UnrealBuildTool.Rules
             //System.Console.WriteLine("FMOD Current path: " + System.IO.Path.GetFullPath("."));
             //System.Console.WriteLine("FMOD Base path: " + BasePath);
 
-            PublicLibraryPaths.Add(BasePath);
-
             string fmodLibName = System.String.Format("{0}fmod{1}{2}", libPrefix, configName, linkExtension);
             string fmodStudioLibName = System.String.Format("{0}fmodstudio{1}{2}", libPrefix, configName, linkExtension);
 
@@ -200,8 +194,21 @@ namespace UnrealBuildTool.Rules
             }
             else if (bLinkFromBinaries)
             {
-                PublicAdditionalLibraries.Add(fmodLibPath);
-                PublicAdditionalLibraries.Add(fmodStudioLibPath);
+                if (Target.IsInPlatformGroup(UnrealPlatformGroup.Android))
+                {
+                    string[] archs = new string[] { "armeabi-v7a", "arm64-v8a", "x86_64" };
+                    foreach (string arch in archs)
+                    {
+                        string LibPath = System.IO.Path.Combine(BasePath, arch);
+                        PublicAdditionalLibraries.Add(System.String.Format("{0}/libfmod{1}.so", LibPath, configName));
+                        PublicAdditionalLibraries.Add(System.String.Format("{0}/libfmodstudio{1}.so", LibPath, configName));
+                    }
+                }
+                else
+                {
+                    PublicAdditionalLibraries.Add(fmodLibPath);
+                    PublicAdditionalLibraries.Add(fmodStudioLibPath);
+                }
             }
             else
             {
